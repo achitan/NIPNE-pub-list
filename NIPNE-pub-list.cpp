@@ -19,6 +19,7 @@ static size_t getString(void* contents, size_t size, size_t nmemb, void* userp) 
 int main(int argc, char* argv[]) {
     std::string queryLine;
     unsigned int page = 1;
+    static int noArticles = 0;
     queryLine += std::to_string(page) + "&q=find%20a%20chitan%2C%20a%20and%20tc%20p";
     CURL* curl;
     CURLcode res;
@@ -28,7 +29,7 @@ int main(int argc, char* argv[]) {
     Json::Reader reader;
 
     while (true) {
-        std::cout << page << std::endl;
+        //std::cout << page << std::endl;
         queryLine = "https://inspirehep.net/api/literature?sort=earliestdate&size=10&page=";
         queryLine += std::to_string(page) + "&q=find%20a%20chitan%2C%20a%20and%20tc%20p";
         curl_global_init(CURL_GLOBAL_DEFAULT);
@@ -82,7 +83,7 @@ int main(int argc, char* argv[]) {
         const Json::Value myArts = root["hits"]["hits"];
         if (myArts.size() == 0)
             break;
-        std::string id, dois, title, cit_no_self, cit, href, doc_type, coll, corp, author, pub_info, pub_year, j_title, ref_art;
+        std::string id, dois, title, cit_no_self, cit, href, doc_type, coll, corp, author, pub_info, pub_year, j_title, ref_art, no_auths;
         std::vector<std::string> authors;
         for (auto index : myArts) {
             id = stringWriter.write(index["id"]);
@@ -114,15 +115,19 @@ int main(int argc, char* argv[]) {
             }
             else
                 authors.push_back("ATLAS Collaboration");
+            no_auths = std::to_string(index["metadata"]["authors"].size());
             pub_info = stringWriter.write(index["metadata"]["publication_info"][0]);
             pub_year = stringWriter.write(index["metadata"]["publication_info"][0]["year"]);
             j_title = stringWriter.write(index["metadata"]["publication_info"][0]["journal_title"]);
             j_title = j_title.substr(1, j_title.find('"', 1) - 1);
             ref_art = j_title + stringWriter.write(index["metadata"]["publication_info"][0]["journal_volume"]) + pub_year + stringWriter.write(index["metadata"]["publication_info"][0]["artid"]);
             //in ref_art, values come with \r - fix it
-
+            noArticles++;
+            std::cout << noArticles << ":" << std::endl;
+            for (auto auth : authors)
+                std::cout << auth << " ";
+            std::cout << ": " << title << "(" << no_auths << ")" << std::endl;
             
-
             authors.clear();
             outputFile << id << "\t" << title << std::endl;
         }
