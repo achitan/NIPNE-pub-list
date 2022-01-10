@@ -28,7 +28,7 @@ int main(int argc, char* argv[]) {
     Json::Value root;
     Json::Reader reader;
 
-    while (true) {
+    while (false) {
         //std::cout << page << std::endl;
         queryLine = "https://inspirehep.net/api/literature?sort=earliestdate&size=10&page=";
         queryLine += std::to_string(page) + "&q=find%20a%20chitan%2C%20a%20and%20tc%20p";
@@ -38,30 +38,6 @@ int main(int argc, char* argv[]) {
         if (curl) {
             curl_easy_setopt(curl, CURLOPT_URL, queryLine.c_str());
             curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, getString);
-            
-#ifdef SKIP_PEER_VERIFICATION
-            /*
-             * If you want to connect to a site who is not using a certificate that is
-             * signed by one of the certs in the CA bundle you have, you can skip the
-             * verification of the server's certificate. This makes the connection
-             * A LOT LESS SECURE.
-             *
-             * If you have a CA cert for the server stored someplace else than in the
-             * default bundle, then the CURLOPT_CAPATH option might come handy for
-             * you.
-             */
-            curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
-#endif
-
-#ifdef SKIP_HOSTNAME_VERIFICATION
-            /*
-             * If the site you are connecting to uses a different host name that what
-             * they have mentioned in their server certificate's commonName (or
-             * subjectAltName) fields, libcurl will refuse to connect. You can skip
-             * this check, but this will make the connection less secure.
-             */
-            curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
-#endif
 
             /* Perform the request, res will get the return code */
             res = curl_easy_perform(curl);
@@ -135,6 +111,32 @@ int main(int argc, char* argv[]) {
         queryLine.clear();
     }
     outputFile.close();
+
+    //rutina logare (curl - httpput w/ postfields)
+    std::string loginPage = "https://www.nipne.ro/dbpub/login.php";
+    curl_global_init(CURL_GLOBAL_ALL);
+    curl = curl_easy_init();
+    if (curl) {
+        struct curl_slist* headers = NULL;
+        //headers = curl_slist_append(headers, "input:utilizator");
+        //headers = curl_slist_append(headers, "parola");
+        //curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);
+        curl_easy_setopt(curl, CURLOPT_POSTFIELDS, "utilizator=Adrian.Chitan");
+        //curl_easy_setopt(curl, CURLOPT_CUSTOMREQUEST, "PUT");
+        curl_easy_setopt(curl, CURLOPT_URL, loginPage.c_str());
+        //curl_easy_setopt(curl, CURLOPT_USERNAME, "achitan");
+        //curl_easy_setopt(curl, CURLOPT_HTTPAUTH, CURLAUTH_ANY);
+        //curl_easy_setopt(curl, CURLOPT_USERPWD, "achitan:xxssxx");
+        res = curl_easy_perform(curl);
+        if (res != CURLE_OK) {
+            std::cout << "failed" << std::endl;
+            curl_easy_strerror(res);
+        }
+
+        curl_easy_cleanup(curl);
+        curl_slist_free_all(headers);
+    }
+    curl_global_cleanup();
 
     return 0;
 }
