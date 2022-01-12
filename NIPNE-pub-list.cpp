@@ -6,9 +6,12 @@
 #include <vector>
 #include <curl/curl.h>
 #include <json/json.h>
+#include <boost/program_options.hpp>
 
 static std::string stringPage;
 static std::map<long, std::vector<std::string>> publicationMap;
+
+namespace po = boost::program_options;
 
 static size_t getString(void* contents, size_t size, size_t nmemb, void* userp) {
     size_t realsize = size * nmemb;
@@ -16,11 +19,46 @@ static size_t getString(void* contents, size_t size, size_t nmemb, void* userp) 
     return realsize;
 }
 
+void login();
+
 int main(int argc, char* argv[]) {
+    //program options
+    std::string author;
+    bool testrun = false;
+    po::options_description desc("Allowed options");
+    desc.add_options()
+        ("help", "produce help message")
+        ("author,a", po::value<std::string>(), "author name")
+        ("test,t", po::bool_switch(&testrun), "do a test run")
+    ;
+    po::variables_map vm;
+    po::store(po::parse_command_line(argc, argv, desc), vm);
+    po::notify(vm);
+
+    if (vm.count("help")) {
+        std::cout << desc << std::endl;
+        return EXIT_FAILURE;
+    }
+    if (vm.count("author")) {
+        std::cout << "Author: " << vm["author"].as<std::string>() << std::endl;
+        author = vm["author"].as<std::string>();
+        while (author.find(" ") != std::string::npos)
+            author.replace(author.find(" "), 1, "%20");
+    }
+    else {
+        std::cout << "Author not set!" << std::endl;
+        return EXIT_FAILURE;
+    }
+    if (testrun) {
+        std::cout << "Author query is: " << author << std::endl;
+        std::cout << "TEST RUN SUCCESSFUL!" << std::endl;
+        return EXIT_SUCCESS;
+    }
+
+    //cURL query
     std::string queryLine;
     unsigned int page = 1;
     static int noArticles = 0;
-    queryLine += std::to_string(page) + "&q=find%20a%20chitan%2C%20a%20and%20tc%20p";
     CURL* curl;
     CURLcode res;
     Json::FastWriter stringWriter;//Json::Value to string
@@ -30,7 +68,7 @@ int main(int argc, char* argv[]) {
     while (true) {
         //std::cout << page << std::endl;
         queryLine = "https://inspirehep.net/api/literature?sort=earliestdate&size=10&page=";
-        queryLine += std::to_string(page) + "&q=find%20a%20chitan%2C%20a%20and%20tc%20p";
+        queryLine += std::to_string(page) + "&q=find%20a%20" + author + "%20and%20tc%20p";
         curl_global_init(CURL_GLOBAL_DEFAULT);
         curl = curl_easy_init();
         stringPage.clear();
@@ -114,6 +152,7 @@ int main(int argc, char* argv[]) {
             publicationMap[ID].push_back(ref_art);
             publicationMap[ID].push_back(pub_year);
             publicationMap[ID].push_back(j_title);
+            std::cout << j_title << std::endl;
             
             authors.clear();
         }
@@ -121,21 +160,21 @@ int main(int argc, char* argv[]) {
         queryLine.clear();
     }
 
+    return 0;
+}
+
+void login() {
+    CURL* curl;
+    CURLcode res;
+
     //rutina logare (curl - httpput w/ postfields)
-    /*std::string loginPage = "https://www.nipne.ro/dbpub/login.php";
+    std::string loginPage = "https://www.nipne.ro/dbpub/login.php";
     curl_global_init(CURL_GLOBAL_ALL);
     curl = curl_easy_init();
     if (curl) {
         struct curl_slist* headers = NULL;
-        //headers = curl_slist_append(headers, "input:utilizator");
-        //headers = curl_slist_append(headers, "parola");
-        //curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);
-        curl_easy_setopt(curl, CURLOPT_POSTFIELDS, "utilizator=Adrian.Chitan");
-        //curl_easy_setopt(curl, CURLOPT_CUSTOMREQUEST, "PUT");
+        curl_easy_setopt(curl, CURLOPT_POSTFIELDS, "utilizator=Adrian.Chitan&parola=xxxx");
         curl_easy_setopt(curl, CURLOPT_URL, loginPage.c_str());
-        //curl_easy_setopt(curl, CURLOPT_USERNAME, "achitan");
-        //curl_easy_setopt(curl, CURLOPT_HTTPAUTH, CURLAUTH_ANY);
-        //curl_easy_setopt(curl, CURLOPT_USERPWD, "achitan:xxssxx");
         res = curl_easy_perform(curl);
         if (res != CURLE_OK) {
             std::cout << "failed" << std::endl;
@@ -145,7 +184,5 @@ int main(int argc, char* argv[]) {
         curl_easy_cleanup(curl);
         curl_slist_free_all(headers);
     }
-    curl_global_cleanup();*/
-
-    return 0;
+    curl_global_cleanup();
 }
