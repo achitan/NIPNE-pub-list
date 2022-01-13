@@ -19,7 +19,7 @@ static size_t getString(void* contents, size_t size, size_t nmemb, void* userp) 
     return realsize;
 }
 
-void login();
+void login(std::string uname = "fake", std::string pass = "fake");
 
 int main(int argc, char* argv[]) {
     //program options
@@ -29,6 +29,8 @@ int main(int argc, char* argv[]) {
     desc.add_options()
         ("help", "produce help message")
         ("author,a", po::value<std::string>(), "author name")
+        ("username,u", po::value<std::string>(), "username for NIPNE login")
+        ("password,p", po::value<std::string>(), "password for NIPNE login")
         ("test,t", po::bool_switch(&testrun), "do a test run")
     ;
     po::variables_map vm;
@@ -54,6 +56,15 @@ int main(int argc, char* argv[]) {
         std::cout << "TEST RUN SUCCESSFUL!" << std::endl;
         return EXIT_SUCCESS;
     }
+    if (vm.count("username") && vm.count("password")) {
+        std::cout << "Username for NIPNE login: " << vm["username"].as<std::string>() << std::endl;
+        std::cout << "Password for NIPNE login set" << std::endl;
+    }
+    else {
+        std::cout << "Username or password not set!" << std::endl;
+        return EXIT_FAILURE;
+    }
+
 
     //cURL query
     std::string queryLine;
@@ -65,7 +76,7 @@ int main(int argc, char* argv[]) {
     Json::Value root;
     Json::Reader reader;
 
-    while (true) {
+    while (false) {
         //std::cout << page << std::endl;
         queryLine = "https://inspirehep.net/api/literature?sort=earliestdate&size=10&page=";
         queryLine += std::to_string(page) + "&q=find%20a%20" + author + "%20and%20tc%20p";
@@ -159,11 +170,12 @@ int main(int argc, char* argv[]) {
         page++;
         queryLine.clear();
     }
+    login();
 
     return 0;
 }
 
-void login() {
+void login(std::string uname, std::string pass) {
     CURL* curl;
     CURLcode res;
 
@@ -171,9 +183,10 @@ void login() {
     std::string loginPage = "https://www.nipne.ro/dbpub/login.php";
     curl_global_init(CURL_GLOBAL_ALL);
     curl = curl_easy_init();
+    std::string unamepass = "utilizator=" + uname + "&parola=" + pass;
     if (curl) {
         struct curl_slist* headers = NULL;
-        curl_easy_setopt(curl, CURLOPT_POSTFIELDS, "utilizator=Adrian.Chitan&parola=xxxx");
+        curl_easy_setopt(curl, CURLOPT_POSTFIELDS, unamepass.c_str());
         curl_easy_setopt(curl, CURLOPT_URL, loginPage.c_str());
         res = curl_easy_perform(curl);
         if (res != CURLE_OK) {
