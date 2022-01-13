@@ -20,10 +20,13 @@ static size_t getString(void* contents, size_t size, size_t nmemb, void* userp) 
 }
 
 void login(std::string uname = "fake", std::string pass = "fake");
+void getListOfPublications();
 
 int main(int argc, char* argv[]) {
     //program options
     std::string author;
+    std::string uname = "";
+    std::string pass = "";
     bool testrun = false;
     po::options_description desc("Allowed options");
     desc.add_options()
@@ -59,6 +62,8 @@ int main(int argc, char* argv[]) {
     if (vm.count("username") && vm.count("password")) {
         std::cout << "Username for NIPNE login: " << vm["username"].as<std::string>() << std::endl;
         std::cout << "Password for NIPNE login set" << std::endl;
+        uname = vm["username"].as<std::string>();
+        pass = vm["password"].as<std::string>();
     }
     else {
         std::cout << "Username or password not set!" << std::endl;
@@ -163,14 +168,14 @@ int main(int argc, char* argv[]) {
             publicationMap[ID].push_back(ref_art);
             publicationMap[ID].push_back(pub_year);
             publicationMap[ID].push_back(j_title);
-            std::cout << j_title << std::endl;
             
             authors.clear();
         }
         page++;
         queryLine.clear();
     }
-    login();
+    login(uname, pass);
+    getListOfPublications();
 
     return 0;
 }
@@ -185,9 +190,11 @@ void login(std::string uname, std::string pass) {
     curl = curl_easy_init();
     std::string unamepass = "utilizator=" + uname + "&parola=" + pass;
     if (curl) {
-        struct curl_slist* headers = NULL;
         curl_easy_setopt(curl, CURLOPT_POSTFIELDS, unamepass.c_str());
         curl_easy_setopt(curl, CURLOPT_URL, loginPage.c_str());
+        curl_easy_setopt(curl, CURLOPT_TIMEOUT, 1L);
+        curl_easy_setopt(curl, CURLOPT_MAXREDIRS, 0L);
+        curl_easy_setopt(curl, CURLOPT_COOKIEJAR, "logon.txt");
         res = curl_easy_perform(curl);
         if (res != CURLE_OK) {
             std::cout << "failed" << std::endl;
@@ -195,7 +202,34 @@ void login(std::string uname, std::string pass) {
         }
 
         curl_easy_cleanup(curl);
-        curl_slist_free_all(headers);
     }
     curl_global_cleanup();
+}
+
+void getListOfPublications() {
+    stringPage.clear();
+    CURL* curl;
+    CURLcode res;
+    std::string queryLine = "https://www.nipne.ro/dbpub/vizualizare_lucrari.php";
+    curl_global_init(CURL_GLOBAL_DEFAULT);
+    curl = curl_easy_init();
+    stringPage.clear();
+    if (curl) {
+        curl_easy_setopt(curl, CURLOPT_URL, queryLine.c_str());
+        curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, getString);
+        curl_easy_setopt(curl, CURLOPT_COOKIEFILE, "logon.txt");
+
+        /* Perform the request, res will get the return code */
+        res = curl_easy_perform(curl);
+
+        /* Check for errors */
+        if (res != CURLE_OK)
+            fprintf(stderr, "curl_easy_perform() failed: %s\n",
+                curl_easy_strerror(res));
+
+        /* always cleanup */
+        curl_easy_cleanup(curl);
+    }
+    curl_global_cleanup();
+    std::cout << stringPage << std::endl;
 }
