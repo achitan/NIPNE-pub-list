@@ -81,8 +81,7 @@ int main(int argc, char* argv[]) {
     Json::Value root;
     Json::Reader reader;
 
-    while (false) {
-        //std::cout << page << std::endl;
+    while (true) {
         queryLine = "https://inspirehep.net/api/literature?sort=earliestdate&size=10&page=";
         queryLine += std::to_string(page) + "&q=find%20a%20" + author + "%20and%20tc%20p";
         curl_global_init(CURL_GLOBAL_DEFAULT);
@@ -91,16 +90,10 @@ int main(int argc, char* argv[]) {
         if (curl) {
             curl_easy_setopt(curl, CURLOPT_URL, queryLine.c_str());
             curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, getString);
-
-            /* Perform the request, res will get the return code */
             res = curl_easy_perform(curl);
-            
-            /* Check for errors */
             if (res != CURLE_OK)
-                fprintf(stderr, "curl_easy_perform() failed: %s\n",
+                fprintf(stderr, "curl perform for inspire site failed: %s\n",
                     curl_easy_strerror(res));
-
-            /* always cleanup */
             curl_easy_cleanup(curl);
         }
         curl_global_cleanup();
@@ -197,10 +190,9 @@ void login(std::string uname, std::string pass) {
         curl_easy_setopt(curl, CURLOPT_COOKIEJAR, "logon.txt");
         res = curl_easy_perform(curl);
         if (res != CURLE_OK) {
-            std::cout << "failed" << std::endl;
+            std::cout << "login failed" << std::endl;
             curl_easy_strerror(res);
         }
-
         curl_easy_cleanup(curl);
     }
     curl_global_cleanup();
@@ -218,18 +210,10 @@ void getListOfPublications() {
         curl_easy_setopt(curl, CURLOPT_URL, queryLine.c_str());
         curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, getString);
         curl_easy_setopt(curl, CURLOPT_COOKIEFILE, "logon.txt");
-
-        /* Perform the request, res will get the return code */
         res = curl_easy_perform(curl);
-
-        /* Check for errors */
         if (res != CURLE_OK)
-            fprintf(stderr, "curl_easy_perform() failed: %s\n",
-                curl_easy_strerror(res));
-
-        /* always cleanup */
+            fprintf(stderr, "curl perform in getListOfPublications failed: %s\n", curl_easy_strerror(res));
         curl_easy_cleanup(curl);
     }
     curl_global_cleanup();
-    std::cout << stringPage << std::endl;
 }
