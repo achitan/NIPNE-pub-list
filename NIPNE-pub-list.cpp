@@ -7,9 +7,11 @@
 #include <curl/curl.h>
 #include <json/json.h>
 #include <boost/program_options.hpp>
+//#include <tinyxml2.h>
 
 static std::string stringPage;
 static std::map<long, std::vector<std::string>> publicationMap;
+static std::vector<std::string> publicationsOnNIPNE;
 
 namespace po = boost::program_options;
 
@@ -216,4 +218,19 @@ void getListOfPublications() {
         curl_easy_cleanup(curl);
     }
     curl_global_cleanup();
+
+    //maybe try to do it with strings (w/ sepparator "2.&nbsp;")
+    unsigned long pubNo = 1;
+    size_t pubLoc = 0;
+    std::string title = "";
+    while (stringPage.find(std::to_string(pubNo) + ".&nbsp;<i>") != std::string::npos) {
+        pubLoc = stringPage.find(std::to_string(pubNo) + ".&nbsp;<i>");
+        pubLoc = stringPage.find("<i>", pubLoc);
+        pubLoc += 3;
+        title = stringPage.substr(pubLoc, stringPage.find("</i>", pubLoc) - pubLoc);
+        publicationsOnNIPNE.push_back(title);
+        title.clear();
+        pubNo++;
+    }
+    stringPage.clear();
 }
