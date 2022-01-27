@@ -7,7 +7,6 @@
 #include <curl/curl.h>
 #include <json/json.h>
 #include <boost/program_options.hpp>
-//#include <tinyxml2.h>
 
 static std::string stringPage;
 static std::map<long, std::vector<std::string>> publicationMap;
@@ -23,6 +22,7 @@ static size_t getString(void* contents, size_t size, size_t nmemb, void* userp) 
 
 void login(std::string uname = "fake", std::string pass = "fake");
 void getListOfPublications();
+void replacePart(std::string& in, std::string replacee, std::string replacer);
 
 int main(int argc, char* argv[]) {
     //program options
@@ -77,6 +77,7 @@ int main(int argc, char* argv[]) {
     std::string queryLine;
     unsigned int page = 1;
     static int noArticles = 0;
+    static int duplicateArts = 0;
     CURL* curl;
     CURLcode res;
     Json::FastWriter stringWriter;//Json::Value to string
@@ -84,7 +85,7 @@ int main(int argc, char* argv[]) {
     Json::Reader reader;
 
     while (true) {
-        queryLine = "https://inspirehep.net/api/literature?sort=earliestdate&size=10&page=";
+        queryLine = "https://inspirehep.net/api/literature?sort=mostrecent&size=10&page=";
         queryLine += std::to_string(page) + "&q=find%20a%20" + author + "%20and%20tc%20p";
         curl_global_init(CURL_GLOBAL_DEFAULT);
         curl = curl_easy_init();
@@ -108,6 +109,7 @@ int main(int argc, char* argv[]) {
         if (myArts.size() == 0)
             break;
         std::string id, dois, title, cit_no_self, cit, href, doc_type, coll, corp, author, pub_info, pub_year, j_title, ref_art, no_auths;
+        std::string j_volume, art_id;
         std::vector<std::string> authors;
         long ID;
         for (auto index : myArts) {
@@ -138,6 +140,7 @@ int main(int argc, char* argv[]) {
                     author = author.substr(1, author.find('"', 1) - 1);
                     i++;
                     authors.push_back(author);
+                    authors.at(0) += "," + author;
                 }
             }
             else
@@ -149,21 +152,41 @@ int main(int argc, char* argv[]) {
             pub_year = pub_year.substr(0, pub_year.size() - 1);
             j_title = stringWriter.write(index["metadata"]["publication_info"][0]["journal_title"]);
             j_title = j_title.substr(1, j_title.find('"', 1) - 1);
-            ref_art = j_title + stringWriter.write(index["metadata"]["publication_info"][0]["journal_volume"]) + pub_year + stringWriter.write(index["metadata"]["publication_info"][0]["artid"]);
-            //in ref_art, values come with \r - fix it
-            noArticles++;
-
-            publicationMap[ID].push_back(title);
-            publicationMap[ID].push_back(dois);
-            publicationMap[ID].push_back(cit_no_self);
-            publicationMap[ID].push_back(href);
-            publicationMap[ID].push_back(doc_type);
-            publicationMap[ID].push_back(authors.at(0));
-            publicationMap[ID].push_back(no_auths);
-            publicationMap[ID].push_back(ref_art);
-            publicationMap[ID].push_back(pub_year);
-            publicationMap[ID].push_back(j_title);
-            
+            j_volume = stringWriter.write(index["metadata"]["publication_info"][0]["journal_volume"]);
+            j_volume = j_volume.substr(0, j_volume.size() - 1);
+            art_id = stringWriter.write(index["metadata"]["publication_info"][0]["artid"]);
+            art_id = art_id.substr(0, art_id.size() - 1);
+            ref_art = j_title + " (" + j_volume + "-" + art_id + "-" + pub_year + ")";
+            replacePart(ref_art, "\"", "");
+            if (!publicationMap[ID].size()) {
+                publicationMap[ID].push_back(title);
+                publicationMap[ID].push_back(dois);
+                publicationMap[ID].push_back(cit_no_self);
+                publicationMap[ID].push_back(href);
+                publicationMap[ID].push_back(doc_type);
+                publicationMap[ID].push_back(authors.at(0));
+                publicationMap[ID].push_back(no_auths);
+                publicationMap[ID].push_back(ref_art);
+                publicationMap[ID].push_back(pub_year);
+                publicationMap[ID].push_back(j_title);
+                noArticles++;
+            }
+            else {
+                if (ref_art.compare(publicationMap[ID].at(7)) != 0)
+                    noArticles++;
+                duplicateArts++;
+                publicationMap[ID].clear();
+                publicationMap[ID].push_back(title);
+                publicationMap[ID].push_back(dois);
+                publicationMap[ID].push_back(cit_no_self);
+                publicationMap[ID].push_back(href);
+                publicationMap[ID].push_back(doc_type);
+                publicationMap[ID].push_back(authors.at(0));
+                publicationMap[ID].push_back(no_auths);
+                publicationMap[ID].push_back(ref_art);
+                publicationMap[ID].push_back(pub_year);
+                publicationMap[ID].push_back(j_title);
+            }
             authors.clear();
         }
         page++;
@@ -171,8 +194,8 @@ int main(int argc, char* argv[]) {
     }
     login(uname, pass);
     getListOfPublications();
-
-    return 0;
+    
+    return EXIT_SUCCESS;
 }
 
 void login(std::string uname, std::string pass) {
@@ -233,4 +256,10 @@ void getListOfPublications() {
         pubNo++;
     }
     stringPage.clear();
+}
+
+void replacePart(std::string& in, std::string replacee, std::string replacer) {
+    while (in.find(replacee) != std::string::npos) {
+        in.replace(in.find(replacee), replacee.size(), replacer);
+    }
 }
