@@ -23,6 +23,7 @@ static size_t getString(void* contents, size_t size, size_t nmemb, void* userp) 
 void login(std::string uname = "fake", std::string pass = "fake");
 void getListOfPublications();
 void replacePart(std::string& in, std::string replacee, std::string replacer);
+void compareTitles();
 
 int main(int argc, char* argv[]) {
     //program options
@@ -194,6 +195,7 @@ int main(int argc, char* argv[]) {
     }
     login(uname, pass);
     getListOfPublications();
+    compareTitles();
     
     return EXIT_SUCCESS;
 }
@@ -262,4 +264,19 @@ void replacePart(std::string& in, std::string replacee, std::string replacer) {
     while (in.find(replacee) != std::string::npos) {
         in.replace(in.find(replacee), replacee.size(), replacer);
     }
+}
+
+void compareTitles() {
+    for (auto& pubINSPIRE : publicationMap) {
+        long index = 0;
+        for (auto& pubNIPNE : publicationsOnNIPNE) {
+            if (pubNIPNE.compare(pubINSPIRE.second.at(0)) == 0)
+                break;
+            else
+                index++;
+        }
+        if (index == publicationsOnNIPNE.size())
+            std::cout << pubINSPIRE.first << " not found!" << "\n" << "INPIRE: " << pubINSPIRE.second.at(0) << std::endl;
+    }
+    std::cout << "INSPIRE has: " << publicationMap.size() << ", NIPNE has: " << publicationsOnNIPNE.size() << std::endl;
 }
