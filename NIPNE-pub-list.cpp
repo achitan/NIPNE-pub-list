@@ -7,10 +7,12 @@
 #include <curl/curl.h>
 #include <json/json.h>
 #include <boost/program_options.hpp>
+#include <boost/algorithm/string.hpp>
 
 static std::string stringPage;
 static std::map<long, std::vector<std::string>> publicationMap;
 static std::vector<std::string> publicationsOnNIPNE;
+static std::vector<std::string> articlesOnNIPNE;
 
 namespace po = boost::program_options;
 
@@ -24,6 +26,7 @@ void login(std::string uname = "fake", std::string pass = "fake");
 void getListOfPublications();
 void replacePart(std::string& in, std::string replacee, std::string replacer);
 void compareTitles();
+void compareArticles();
 
 int main(int argc, char* argv[]) {
     //program options
@@ -157,7 +160,7 @@ int main(int argc, char* argv[]) {
             j_volume = j_volume.substr(0, j_volume.size() - 1);
             art_id = stringWriter.write(index["metadata"]["publication_info"][0]["artid"]);
             art_id = art_id.substr(0, art_id.size() - 1);
-            ref_art = j_title + " (" + j_volume + "-" + art_id + "-" + pub_year + ")";
+            ref_art = j_title + " " + j_volume + " (" + pub_year + ") ";// +art_id;
             replacePart(ref_art, "\"", "");
             if (!publicationMap[ID].size()) {
                 publicationMap[ID].push_back(title);
@@ -196,6 +199,7 @@ int main(int argc, char* argv[]) {
     login(uname, pass);
     getListOfPublications();
     compareTitles();
+    //compareArticles();
     
     return EXIT_SUCCESS;
 }
@@ -248,12 +252,15 @@ void getListOfPublications() {
     unsigned long pubNo = 1;
     size_t pubLoc = 0;
     std::string title = "";
+    std::string artRef = "";
     while (stringPage.find(std::to_string(pubNo) + ".&nbsp;<i>") != std::string::npos) {
         pubLoc = stringPage.find(std::to_string(pubNo) + ".&nbsp;<i>");
         pubLoc = stringPage.find("<i>", pubLoc);
         pubLoc += 3;
         title = stringPage.substr(pubLoc, stringPage.find("</i>", pubLoc) - pubLoc);
+        artRef = stringPage.substr(stringPage.find("<code>", pubLoc) + 6, stringPage.find("&nbsp;", pubLoc) - stringPage.find("<code>", pubLoc) - 6);
         publicationsOnNIPNE.push_back(title);
+        articlesOnNIPNE.push_back(artRef);
         title.clear();
         pubNo++;
     }
@@ -267,16 +274,55 @@ void replacePart(std::string& in, std::string replacee, std::string replacer) {
 }
 
 void compareTitles() {
+    int newPub = 0;
     for (auto& pubINSPIRE : publicationMap) {
         long index = 0;
         for (auto& pubNIPNE : publicationsOnNIPNE) {
-            if (pubNIPNE.compare(pubINSPIRE.second.at(0)) == 0)
+            std::string insTitle = boost::to_upper_copy<std::string>(pubINSPIRE.second.at(0));
+            std::string nipTitle = boost::to_upper_copy<std::string>(pubNIPNE);
+            while (insTitle.find(" ") != std::string::npos) {
+                insTitle.replace(insTitle.find(" "), 1, "");
+            }
+            while (insTitle.find("$") != std::string::npos) {
+                size_t whereisdollar = insTitle.find("$");
+                size_t whereisnextdollar = insTitle.find("$", whereisdollar + 1);
+                insTitle.replace(whereisdollar, whereisnextdollar - whereisdollar + 1, "");
+            }
+            while (nipTitle.find(" ") != std::string::npos) {
+                nipTitle.replace(nipTitle.find(" "), 1, "");
+            }
+            while (nipTitle.find("$") != std::string::npos) {
+                size_t whereisdollar = nipTitle.find("$");
+                size_t whereisnextdollar = nipTitle.find("$", whereisdollar + 1);
+                nipTitle.replace(whereisdollar, whereisnextdollar - whereisdollar + 1, "");
+            }
+            if (nipTitle.compare(insTitle) == 0)
                 break;
             else
                 index++;
         }
-        if (index == publicationsOnNIPNE.size())
-            std::cout << pubINSPIRE.first << " not found!" << "\n" << "INPIRE: " << pubINSPIRE.second.at(0) << std::endl;
+        if (index == publicationsOnNIPNE.size()) {
+            ++newPub;
+        }
     }
-    std::cout << "INSPIRE has: " << publicationMap.size() << ", NIPNE has: " << publicationsOnNIPNE.size() << std::endl;
+    std::cout << "there were " << newPub << " new publications" << std::endl;
+}
+
+void compareArticles() {
+    int newPub = 0;
+    for (auto& pubINSPIRE : publicationMap) {
+        long index = 0;
+        for (auto& pubNIPNE : articlesOnNIPNE) {
+            std::cout << pubNIPNE << std::endl;
+            if (pubNIPNE.find(pubINSPIRE.second.at(7)) != std::string::npos) {
+                break;
+            }
+            else
+                index++;
+        }
+        if (index == articlesOnNIPNE.size()) {
+            ++newPub;
+        }
+    }
+    std::cout << "there were " << newPub << " new publications" << std::endl;
 }
