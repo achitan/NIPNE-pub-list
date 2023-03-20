@@ -23,5 +23,8 @@
     <Text Include="outputXML.html">
       <Filter>Resource Files</Filter>
     </Text>
+    <Text Include="RIS_2021.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

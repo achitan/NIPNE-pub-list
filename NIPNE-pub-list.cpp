@@ -1,5 +1,6 @@
 #include <iostream>
 #include <stdio.h>
+#include <cstdlib>
 #include <string>
 #include <fstream>
 #include <map>
@@ -22,11 +23,14 @@ static size_t getString(void* contents, size_t size, size_t nmemb, void* userp) 
     return realsize;
 }
 
+void getInspirePublications(std::string a);
 void login(std::string uname = "fake", std::string pass = "fake");
 void getListOfPublications();
 void replacePart(std::string& in, std::string replacee, std::string replacer);
 void compareTitles();
 void compareArticles();
+void compareJournals();
+void placePublication();
 
 int main(int argc, char* argv[]) {
     //program options
@@ -76,7 +80,25 @@ int main(int argc, char* argv[]) {
         return EXIT_FAILURE;
     }
 
+    getInspirePublications(author);
+    
+    for (auto& pub : publicationMap) {
+        std::cout << pub.first << ") " << atof(pub.second.at(6).c_str()) / 10. + 22. << std::endl;
+    }
+    //Ai = A, A < 5
+    //Ai = (A+10)/3, 5 <= A <= 80
+    //Ai = A/10+22, A > 80
 
+    //login(uname, pass);
+    //getListOfPublications();
+    //compareTitles();
+    //compareArticles();
+    //placePublication();
+    
+    return EXIT_SUCCESS;
+}
+
+void getInspirePublications(std::string a) {
     //cURL query
     std::string queryLine;
     unsigned int page = 1;
@@ -90,7 +112,7 @@ int main(int argc, char* argv[]) {
 
     while (true) {
         queryLine = "https://inspirehep.net/api/literature?sort=mostrecent&size=10&page=";
-        queryLine += std::to_string(page) + "&q=find%20a%20" + author + "%20and%20tc%20p";
+        queryLine += std::to_string(page) + "&q=find%20a%20" + a + "%20and%20tc%20p";
         curl_global_init(CURL_GLOBAL_DEFAULT);
         curl = curl_easy_init();
         stringPage.clear();
@@ -104,7 +126,7 @@ int main(int argc, char* argv[]) {
             curl_easy_cleanup(curl);
         }
         curl_global_cleanup();
-        
+
         //JSON stuff
         bool parsingSuccess = reader.parse(stringPage, root);
         if (!parsingSuccess)
@@ -135,7 +157,7 @@ int main(int argc, char* argv[]) {
                 continue;
             coll = stringWriter.write(index["metadata"]["collaborations"]);
             coll = coll.substr(coll.find(':') + 2, coll.rfind('"') - coll.find(':') - 2);
-            
+
             //authors routine
             if (coll.find("ATLAS") == std::string::npos) {
                 unsigned int i = 0;
@@ -150,7 +172,7 @@ int main(int argc, char* argv[]) {
             else
                 authors.push_back("ATLAS Collaboration");
             no_auths = std::to_string(index["metadata"]["authors"].size());
-            pub_info = stringWriter.write(index["metadata"]["publication_info"][0]["journal_title"] ) + stringWriter.write(index["metadata"]["publication_info"][0]["journal_issue"]) +
+            pub_info = stringWriter.write(index["metadata"]["publication_info"][0]["journal_title"]) + stringWriter.write(index["metadata"]["publication_info"][0]["journal_issue"]) +
                 stringWriter.write(index["metadata"]["publication_info"][0]["journal_volume"]) + stringWriter.write(index["metadata"]["publication_info"][0]["page_start"]);
             pub_year = stringWriter.write(index["metadata"]["publication_info"][0]["year"]);
             pub_year = pub_year.substr(0, pub_year.size() - 1);
@@ -196,12 +218,6 @@ int main(int argc, char* argv[]) {
         page++;
         queryLine.clear();
     }
-    login(uname, pass);
-    getListOfPublications();
-    compareTitles();
-    //compareArticles();
-    
-    return EXIT_SUCCESS;
 }
 
 void login(std::string uname, std::string pass) {
@@ -296,12 +312,16 @@ void compareTitles() {
                 size_t whereisnextdollar = nipTitle.find("$", whereisdollar + 1);
                 nipTitle.replace(whereisdollar, whereisnextdollar - whereisdollar + 1, "");
             }
-            if (nipTitle.compare(insTitle) == 0)
+            if (nipTitle.compare(insTitle) == 0) {
+                std::cout << nipTitle << "\n" << insTitle << std::endl;
+                std::cout << std::endl;
                 break;
+            }
             else
                 index++;
         }
         if (index == publicationsOnNIPNE.size()) {
+            std::cout << newPub << ") " << pubINSPIRE.second.at(9) << std::endl;
             ++newPub;
         }
     }
@@ -325,4 +345,45 @@ void compareArticles() {
         }
     }
     std::cout << "there were " << newPub << " new publications" << std::endl;
+}
+
+void compareJournals() {
+    int newPub = 0;
+    for (auto& pubINSPIRE : publicationMap) {
+        long index = 0;
+        for (auto& pubNIPNE : articlesOnNIPNE) {
+            std::cout << pubNIPNE << std::endl;
+            if (pubNIPNE.find(pubINSPIRE.second.at(9)) != std::string::npos) {
+                break;
+            }
+            else
+                index++;
+        }
+        if (index == articlesOnNIPNE.size()) {
+            ++newPub;
+        }
+    }
+    std::cout << "there were " << newPub << " new publications" << std::endl;
+}
+
+void placePublication() {
+    stringPage.clear();
+    CURL* curl;
+    CURLcode res;
+    //std::string queryLine = "https://www.nipne.ro/dbpub/autoc/autocomplete.php";
+    std::string queryLine = "https://www.nipne.ro/dbpub/autoc/getid.php";
+    curl_global_init(CURL_GLOBAL_DEFAULT);
+    curl = curl_easy_init();
+    stringPage.clear();
+    if (curl) {
+        curl_easy_setopt(curl, CURLOPT_URL, queryLine.c_str());
+        curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, getString);
+        curl_easy_setopt(curl, CURLOPT_COOKIEFILE, "logon.txt");
+        res = curl_easy_perform(curl);
+        if (res != CURLE_OK)
+            fprintf(stderr, "curl perform in getListOfPublications failed: %s\n", curl_easy_strerror(res));
+        curl_easy_cleanup(curl);
+    }
+    curl_global_cleanup();
+    std::cout << stringPage << "END OF PAGE" << std::endl;
 }
