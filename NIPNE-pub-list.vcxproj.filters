@@ -26,5 +26,8 @@
     <Text Include="RIS_2021.txt">
       <Filter>Resource Files</Filter>
     </Text>
+    <Text Include="regularJournals.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

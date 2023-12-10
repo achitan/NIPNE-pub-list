@@ -147,6 +147,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="outputXML.html" />
+    <Text Include="regularJournals.txt" />
     <Text Include="RIS_2021.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

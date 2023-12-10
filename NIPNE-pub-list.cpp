@@ -14,8 +14,8 @@ static std::string stringPage;
 static std::map<long, std::vector<std::string>> publicationMap;
 static std::vector<std::string> publicationsOnNIPNE;
 static std::vector<std::string> articlesOnNIPNE;
-
-namespace po = boost::program_options;
+static std::map<std::string, float> SRImap;
+static std::string yr;
 
 static size_t getString(void* contents, size_t size, size_t nmemb, void* userp) {
     size_t realsize = size * nmemb;
@@ -23,7 +23,9 @@ static size_t getString(void* contents, size_t size, size_t nmemb, void* userp) 
     return realsize;
 }
 
-void getInspirePublications(std::string a);
+void getInspirePublications(std::string author);
+void readSRI(std::string file);
+void computeAIS();
 void login(std::string uname = "fake", std::string pass = "fake");
 void getListOfPublications();
 void replacePart(std::string& in, std::string replacee, std::string replacer);
@@ -32,11 +34,15 @@ void compareArticles();
 void compareJournals();
 void placePublication();
 
+namespace po = boost::program_options;
+
 int main(int argc, char* argv[]) {
     //program options
-    std::string author;
-    std::string uname = "";
-    std::string pass = "";
+    static std::string author;
+    static std::string uname = "";
+    static std::string pass = "";
+    static std::string SRIfileName = "";
+    //static std::string yr = "";
     bool testrun = false;
     po::options_description desc("Allowed options");
     desc.add_options()
@@ -44,6 +50,8 @@ int main(int argc, char* argv[]) {
         ("author,a", po::value<std::string>(), "author name")
         ("username,u", po::value<std::string>(), "username for NIPNE login")
         ("password,p", po::value<std::string>(), "password for NIPNE login")
+        ("srifile,s",po::value<std::string>(), "SRI file name")
+        ("year,y", po::value<std::string>(&yr), "choose the publication year")
         ("test,t", po::bool_switch(&testrun), "do a test run")
     ;
     po::variables_map vm;
@@ -69,6 +77,10 @@ int main(int argc, char* argv[]) {
         std::cout << "TEST RUN SUCCESSFUL!" << std::endl;
         return EXIT_SUCCESS;
     }
+    if (vm.count("srifile")) {
+        std::cout << "File containing SRI: " << vm["srifile"].as<std::string>() << std::endl;
+        SRIfileName = vm["srifile"].as<std::string>();
+    }
     if (vm.count("username") && vm.count("password")) {
         std::cout << "Username for NIPNE login: " << vm["username"].as<std::string>() << std::endl;
         std::cout << "Password for NIPNE login set" << std::endl;
@@ -80,25 +92,27 @@ int main(int argc, char* argv[]) {
         return EXIT_FAILURE;
     }
 
-    getInspirePublications(author);
+    readSRI(SRIfileName);
     
-    for (auto& pub : publicationMap) {
-        std::cout << pub.first << ") " << atof(pub.second.at(6).c_str()) / 10. + 22. << std::endl;
-    }
+    getInspirePublications(author);
+    //for (auto& pub : publicationMap) {
+    //    std::cout << pub.first << ") " << pub.second.at(4) << std::endl;//should be article
+    //}
     //Ai = A, A < 5
     //Ai = (A+10)/3, 5 <= A <= 80
     //Ai = A/10+22, A > 80
 
-    //login(uname, pass);
-    //getListOfPublications();
-    //compareTitles();
+    login(uname, pass);
+    getListOfPublications();
+    compareTitles();
     //compareArticles();
+    //compareJournals();
     //placePublication();
     
     return EXIT_SUCCESS;
 }
 
-void getInspirePublications(std::string a) {
+void getInspirePublications(std::string author) {
     //cURL query
     std::string queryLine;
     unsigned int page = 1;
@@ -112,7 +126,7 @@ void getInspirePublications(std::string a) {
 
     while (true) {
         queryLine = "https://inspirehep.net/api/literature?sort=mostrecent&size=10&page=";
-        queryLine += std::to_string(page) + "&q=find%20a%20" + a + "%20and%20tc%20p";
+        queryLine += std::to_string(page) + "&q=find%20a%20" + author + "%20and%20tc%20p";
         curl_global_init(CURL_GLOBAL_DEFAULT);
         curl = curl_easy_init();
         stringPage.clear();
@@ -213,11 +227,33 @@ void getInspirePublications(std::string a) {
                 publicationMap[ID].push_back(pub_year);
                 publicationMap[ID].push_back(j_title);
             }
+            //std::cout << ID << " : " << title << " : " << dois << " : " << href << " : " << doc_type << " : " << authors.at(0) << " : " << ref_art << " : " << pub_year << " : " << j_title << std::endl;
             authors.clear();
         }
         page++;
         queryLine.clear();
     }
+}
+
+void readSRI(std::string file) {
+    std::ifstream SRIfile(file, std::ios::in);
+    std::string line;
+
+    while (std::getline(SRIfile, line)) {
+        for (auto& character : line)
+            character = std::toupper(character);
+        std::size_t idx = line.rfind('\t');
+        std::string sriStr = line.substr(idx + 1, line.length() - idx);
+        sriStr.replace(sriStr.find(','), 1, ".");
+        idx = line.find('\t');
+        std::string journalStr = line.substr(0, idx);
+        SRImap[journalStr] = std::atof(sriStr.c_str());
+    }
+    SRIfile.close();
+}
+
+void computeAIS() {
+
 }
 
 void login(std::string uname, std::string pass) {
@@ -269,6 +305,7 @@ void getListOfPublications() {
     size_t pubLoc = 0;
     std::string title = "";
     std::string artRef = "";
+    //std::cout << stringPage << std::endl;
     while (stringPage.find(std::to_string(pubNo) + ".&nbsp;<i>") != std::string::npos) {
         pubLoc = stringPage.find(std::to_string(pubNo) + ".&nbsp;<i>");
         pubLoc = stringPage.find("<i>", pubLoc);
@@ -277,6 +314,7 @@ void getListOfPublications() {
         artRef = stringPage.substr(stringPage.find("<code>", pubLoc) + 6, stringPage.find("&nbsp;", pubLoc) - stringPage.find("<code>", pubLoc) - 6);
         publicationsOnNIPNE.push_back(title);
         articlesOnNIPNE.push_back(artRef);
+        //std::cout << artRef << std::endl;
         title.clear();
         pubNo++;
     }
@@ -293,6 +331,8 @@ void compareTitles() {
     int newPub = 0;
     for (auto& pubINSPIRE : publicationMap) {
         long index = 0;
+        if(!yr.empty() && pubINSPIRE.second.at(8).compare(yr) != 0)
+            continue;
         for (auto& pubNIPNE : publicationsOnNIPNE) {
             std::string insTitle = boost::to_upper_copy<std::string>(pubINSPIRE.second.at(0));
             std::string nipTitle = boost::to_upper_copy<std::string>(pubNIPNE);
@@ -313,15 +353,15 @@ void compareTitles() {
                 nipTitle.replace(whereisdollar, whereisnextdollar - whereisdollar + 1, "");
             }
             if (nipTitle.compare(insTitle) == 0) {
-                std::cout << nipTitle << "\n" << insTitle << std::endl;
-                std::cout << std::endl;
+                //std::cout << nipTitle << "\n" << insTitle << std::endl;
+                //std::cout << std::endl;
                 break;
             }
             else
                 index++;
         }
         if (index == publicationsOnNIPNE.size()) {
-            std::cout << newPub << ") " << pubINSPIRE.second.at(9) << std::endl;
+            std::cout << newPub << ") " << pubINSPIRE.second.at(0) << " " << pubINSPIRE.second.at(8) << std::endl;
             ++newPub;
         }
     }
