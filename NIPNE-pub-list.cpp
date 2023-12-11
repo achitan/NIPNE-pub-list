@@ -328,7 +328,8 @@ void replacePart(std::string& in, std::string replacee, std::string replacer) {
 }
 
 void compareTitles() {
-    int newPub = 0;
+    std::ofstream out("outNew.txt", std::ios::out);
+    int newPub = 1;
     for (auto& pubINSPIRE : publicationMap) {
         long index = 0;
         if(!yr.empty() && pubINSPIRE.second.at(8).compare(yr) != 0)
@@ -362,9 +363,21 @@ void compareTitles() {
         }
         if (index == publicationsOnNIPNE.size()) {
             std::cout << newPub << ") " << pubINSPIRE.second.at(0) << " " << pubINSPIRE.second.at(8) << std::endl;
+            out << std::endl;
+            out << newPub << ") " << pubINSPIRE.second.at(0) << std::endl;
+            out << pubINSPIRE.second.at(1) << std::endl;
+            out << pubINSPIRE.second.at(2) << std::endl;
+            out << pubINSPIRE.second.at(3) << std::endl;
+            out << pubINSPIRE.second.at(4) << std::endl;
+            out << pubINSPIRE.second.at(5) << std::endl;
+            out << pubINSPIRE.second.at(6) << std::endl;
+            out << pubINSPIRE.second.at(7) << std::endl;
+            out << pubINSPIRE.second.at(8) << std::endl;
+            out << pubINSPIRE.second.at(9) << std::endl;
             ++newPub;
         }
     }
+    out.close();
     std::cout << "there were " << newPub << " new publications" << std::endl;
 }
 
