@@ -1,0 +1,2959 @@
+
+1) Search for new phenomena in the $W W$ to $\\ell \\nu \\ell$' $\\nu$' final state in $pp$ collisions at $\\sqrt{s}=7$ TeV with the ATLAS detector
+10.1016/j.physletb.2012.11.040
+21
+https://inspirehep.net/api/literature/1127504
+article
+ATLAS Collaboration
+2891
+Phys.Lett.B 718 (2013) 
+2013
+Phys.Lett.B
+
+2) Measurement of $W^+W^-$ production in pp collisions at $\\sqrt{s}$=7  TeV with the ATLAS detector and limits on anomalous WWZ and WW\u03b3 couplings
+10.1103/PhysRevD.87.112001
+153
+https://inspirehep.net/api/literature/1190187
+article
+ATLAS Collaboration
+2912
+Phys.Rev.D 87 (2013) 
+2013
+Phys.Rev.D
+
+3) Search for supersymmetry in events with photons, bottom quarks, and missing transverse momentum in proton\u2013proton collisions at a centre-of-mass energy of 7 TeV with the ATLAS detector
+10.1016/j.physletb.2013.01.041
+15
+https://inspirehep.net/api/literature/1198427
+article
+ATLAS Collaboration
+2897
+Phys.Lett.B 719 (2013) 
+2013
+Phys.Lett.B
+
+4) Search for resonant diboson production in the WW/WZ\u2192\u2113\u03bdjj decay channels with the ATLAS detector at $\\sqrt{s}$ = 7  TeV
+10.1103/PhysRevD.87.112006
+30
+https://inspirehep.net/api/literature/1231616
+article
+ATLAS Collaboration
+2906
+Phys.Rev.D 87 (2013) 
+2013
+Phys.Rev.D
+
+5) Measurement of the muon reconstruction performance of the ATLAS detector using 2011 and 2012 LHC proton\u2013proton collision data
+10.1140/epjc/s10052-014-3130-x
+137
+https://inspirehep.net/api/literature/1306491
+article
+ATLAS Collaboration
+2891
+Eur.Phys.J.C 74 (2014) 
+2014
+Eur.Phys.J.C
+
+6) Search for $W' \\rightarrow tb \\rightarrow qqbb$ decays in $pp$ collisions at $\\sqrt{s}$  = 8 TeV with the ATLAS detector
+10.1140/epjc/s10052-015-3372-2
+31
+https://inspirehep.net/api/literature/1309877
+article
+ATLAS Collaboration
+2891
+Eur.Phys.J.C 75 (2015) 
+2015
+Eur.Phys.J.C
+
+7) Search for the lepton flavor violating decay Z\u2192e\u03bc in pp collisions at $\\sqrt{s}$  TeV with the ATLAS detector
+10.1103/PhysRevD.90.072010
+101
+https://inspirehep.net/api/literature/1312169
+article
+ATLAS Collaboration
+2900
+Phys.Rev.D 90 (2014) 
+2014
+Phys.Rev.D
+
+8) Search for $s$-channel single top-quark production in proton\u2013proton collisions at $\\sqrt s=8$ TeV with the ATLAS detector
+10.1016/j.physletb.2014.11.042
+21
+https://inspirehep.net/api/literature/1319760
+article
+ATLAS Collaboration
+2889
+Phys.Lett.B 740 (2015) 
+2015
+Phys.Lett.B
+
+9) Search for $W' \\to t\\bar{b}$ in the lepton plus jets final state in proton-proton collisions at a centre-of-mass energy of $\\sqrt{s}$ = 8 TeV with the ATLAS detector
+10.1016/j.physletb.2015.02.051
+45
+https://inspirehep.net/api/literature/1322383
+article
+ATLAS Collaboration
+2885
+Phys.Lett.B 743 (2015) 
+2015
+Phys.Lett.B
+
+10) Search for Higgs and $Z$ Boson Decays to $J/\\psi\\gamma$ and $\\Upsilon(nS)\\gamma$ with the ATLAS Detector
+10.1103/PhysRevLett.114.121801
+67
+https://inspirehep.net/api/literature/1339252
+article
+ATLAS Collaboration
+2825
+Phys.Rev.Lett. 114 (2015) 
+2015
+Phys.Rev.Lett.
+
+11) Two-particle Bose\u2013Einstein correlations in pp collisions at $\\mathbf {\\sqrt{s} =}$ 0.9 and 7 TeV measured with the ATLAS detector
+10.1140/epjc/s10052-015-3644-x
+39
+https://inspirehep.net/api/literature/1346844
+article
+ATLAS Collaboration
+2892
+Eur.Phys.J.C 75 (2015) 
+2015
+Eur.Phys.J.C
+
+12) Evidence of W\u03b3\u03b3 Production in pp Collisions at s=8  TeV and Limits on Anomalous Quartic Gauge Couplings with the ATLAS Detector
+10.1103/PhysRevLett.115.031802
+36
+https://inspirehep.net/api/literature/1351760
+article
+ATLAS Collaboration
+2828
+Phys.Rev.Lett. 115 (2015) 
+2015
+Phys.Rev.Lett.
+
+13) Measurements of the Total and Differential Higgs Boson Production Cross Sections Combining the H\u2192\u03b3\u03b3 and H\u2192ZZ*\u21924\u2113 Decay Channels at $\\sqrt{s}$=8  TeV with the ATLAS Detector
+10.1103/PhysRevLett.115.091801
+63
+https://inspirehep.net/api/literature/1364361
+article
+ATLAS Collaboration
+2822
+Phys.Rev.Lett. 115 (2015) 
+2015
+Phys.Rev.Lett.
+
+14) Measurement of the production of neighbouring jets in lead\u2013lead collisions at $\\sqrt{s_{\\mathrm{NN}}} = 2.76$TeV with the ATLAS detector
+10.1016/j.physletb.2015.10.059
+16
+https://inspirehep.net/api/literature/1380185
+article
+ATLAS Collaboration
+2882
+Phys.Lett.B 751 (2015) 
+2015
+Phys.Lett.B
+
+15) Measurement of the centrality dependence of the charged-particle pseudorapidity distribution in proton\u2013lead collisions at $\\sqrt{s_{_\\text {NN}}} = 5.02$  TeV with the ATLAS detector
+10.1140/epjc/s10052-016-4002-3
+68
+https://inspirehep.net/api/literature/1386475
+article
+ATLAS Collaboration
+2843
+Eur.Phys.J.C 76 (2016) 
+2016
+Eur.Phys.J.C
+
+16) Search for lepton-flavour-violating H \u2192 \u03bc\u03c4 decays of the Higgs boson with the ATLAS detector
+10.1007/JHEP11(2015)211
+143
+https://inspirehep.net/api/literature/1388016
+article
+ATLAS Collaboration
+2865
+JHEP 11 (2015) 
+2015
+JHEP
+
+17) Summary of the ATLAS experiment\u2019s sensitivity to supersymmetry after LHC Run 1 \u2014 interpreted in the phenomenological MSSM
+10.1007/JHEP10(2015)134
+128
+https://inspirehep.net/api/literature/1389857
+article
+ATLAS Collaboration
+2866
+JHEP 10 (2015) 
+2015
+JHEP
+
+18) Measurement of the transverse momentum and $\\phi ^*_{\\eta }$ distributions of Drell\u2013Yan lepton pairs in proton\u2013proton collisions at $\\sqrt{s}=8$  TeV with the ATLAS detector
+10.1140/epjc/s10052-016-4070-4
+202
+https://inspirehep.net/api/literature/1408516
+article
+ATLAS Collaboration
+2870
+Eur.Phys.J.C 76 (2016) 
+2016
+Eur.Phys.J.C
+
+19) Muon reconstruction performance of the ATLAS detector in proton\u2013proton collision data at $\\sqrt{s}$ =13 TeV
+10.1140/epjc/s10052-016-4120-y
+243
+https://inspirehep.net/api/literature/1429662
+article
+ATLAS Collaboration
+2845
+Eur.Phys.J.C 76 (2016) 
+2016
+Eur.Phys.J.C
+
+20) Measurement of fiducial differential cross sections of gluon-fusion production of Higgs bosons decaying to WW$^{\u2217}$\u2192e\u03bd\u03bc\u03bd with the ATLAS detector at $ \\sqrt{s}=8 $ TeV
+10.1007/JHEP08(2016)104
+39
+https://inspirehep.net/api/literature/1444991
+article
+ATLAS Collaboration
+2859
+JHEP 08 (2016) 
+2016
+JHEP
+
+21) Search for bottom squark pair production in proton\u2013proton collisions at $\\sqrt{s}=13$  TeV with the ATLAS detector
+10.1140/epjc/s10052-016-4382-4
+41
+https://inspirehep.net/api/literature/1472822
+article
+ATLAS Collaboration
+2859
+Eur.Phys.J.C 76 (2016) 
+2016
+Eur.Phys.J.C
+
+22) Search for squarks and gluinos in events with hadronically decaying tau leptons, jets and missing transverse momentum in proton\u2013proton collisions at $\\sqrt{s}=13$  TeV recorded with the ATLAS detector
+10.1140/epjc/s10052-016-4481-2
+10
+https://inspirehep.net/api/literature/1477209
+article
+ATLAS Collaboration
+2859
+Eur.Phys.J.C 76 (2016) 
+2016
+Eur.Phys.J.C
+
+23) Reconstruction of primary vertices at the ATLAS experiment in Run 1 proton\u2013proton collisions at the LHC
+10.1140/epjc/s10052-017-4887-5
+84
+https://inspirehep.net/api/literature/1500997
+article
+ATLAS Collaboration
+2863
+Eur.Phys.J.C 77 (2017) 
+2017
+Eur.Phys.J.C
+
+24) Electron efficiency measurements with the ATLAS detector using 2012 LHC proton\u2013proton collision data
+10.1140/epjc/s10052-017-4756-2
+36
+https://inspirehep.net/api/literature/1501691
+article
+ATLAS Collaboration
+2852
+Eur.Phys.J.C 77 (2017) 
+2017
+Eur.Phys.J.C
+
+25) Measurement of jet fragmentation in 5.02 TeV proton-lead and proton-proton collisions with the ATLAS detector
+10.1016/j.nuclphysa.2018.07.006
+25
+https://inspirehep.net/api/literature/1604026
+article
+ATLAS Collaboration
+2849
+Nucl.Phys.A 978 (2018) 
+2018
+Nucl.Phys.A
+
+26) Determination of the strong coupling constant $\\alpha _\\mathrm {s}$ from transverse energy\u2013energy correlations in multijet events at $\\sqrt{s} = 8~\\hbox {TeV}$ using the ATLAS detector
+10.1140/epjc/s10052-017-5442-0
+40
+https://inspirehep.net/api/literature/1609253
+article
+ATLAS Collaboration
+2874
+Eur.Phys.J.C 77 (2017) 
+2017
+Eur.Phys.J.C
+
+27) Measurement of quarkonium production in proton\u2013lead and proton\u2013proton collisions at $5.02~\\mathrm {TeV}$ with the ATLAS detector
+10.1140/epjc/s10052-018-5624-4
+75
+https://inspirehep.net/api/literature/1622737
+article
+ATLAS Collaboration
+2839
+Eur.Phys.J.C 78 (2018) 
+2018
+Eur.Phys.J.C
+
+28) Measurement of $\\tau $ polarisation in $Z/\\gamma ^{*}\\rightarrow \\tau \\tau $ decays in proton\u2013proton collisions at $\\sqrt{s}=8$ TeV with the ATLAS detector
+10.1140/epjc/s10052-018-5619-1
+5
+https://inspirehep.net/api/literature/1622745
+article
+ATLAS Collaboration
+2896
+Eur.Phys.J.C 78 (2018) 
+2018
+Eur.Phys.J.C
+
+29) Measurement of the production cross-section of a single top quark in association with a Z boson in proton\u2013proton collisions at 13 TeV with the ATLAS detector
+10.1016/j.physletb.2018.03.023
+43
+https://inspirehep.net/api/literature/1629567
+article
+ATLAS Collaboration
+2900
+Phys.Lett.B 780 (2018) 
+2018
+Phys.Lett.B
+
+30) Search for doubly charged Higgs boson production in multi-lepton final states with the ATLAS detector using proton\u2013proton collisions at $\\sqrt{s}=13\\,\\text {TeV}$
+10.1140/epjc/s10052-018-5661-z
+173
+https://inspirehep.net/api/literature/1632760
+article
+ATLAS Collaboration
+2900
+Eur.Phys.J.C 78 (2018) 
+2018
+Eur.Phys.J.C
+
+31) Search for heavy ZZ resonances in the $\\ell ^+\\ell ^-\\ell ^+\\ell ^-$ and $\\ell ^+\\ell ^-\\nu \\bar{\\nu }$ final states using proton\u2013proton collisions at $\\sqrt{s}= 13$   $\\text {TeV}$ with the ATLAS detector
+10.1140/epjc/s10052-018-5686-3
+112
+https://inspirehep.net/api/literature/1643838
+article
+ATLAS Collaboration
+2903
+Eur.Phys.J.C 78 (2018) 
+2018
+Eur.Phys.J.C
+
+32) Search for $W' \\rightarrow tb$ decays in the hadronic final state using pp collisions at $\\sqrt{s}=13$ TeV with the ATLAS detector
+10.1016/j.physletb.2018.03.036
+32
+https://inspirehep.net/api/literature/1650152
+article
+ATLAS Collaboration
+2879
+Phys.Lett.B 781 (2018) 
+2018
+Phys.Lett.B
+
+33) Search for heavy particles decaying into top-quark pairs using lepton-plus-jets events in proton\u2013proton collisions at $\\sqrt{s} = 13$   $\\text {TeV}$ with the ATLAS detector
+10.1140/epjc/s10052-018-5995-6
+81
+https://inspirehep.net/api/literature/1670803
+article
+ATLAS Collaboration
+2891
+Eur.Phys.J.C 78 (2018) 
+2018
+Eur.Phys.J.C
+
+34) In situ calibration of large-radius jet energy and mass in 13 TeV proton\u2013proton collisions with the ATLAS detector
+10.1140/epjc/s10052-019-6632-8
+15
+https://inspirehep.net/api/literature/1683827
+article
+ATLAS Collaboration
+2933
+Eur.Phys.J.C 79 (2019) 
+2019
+Eur.Phys.J.C
+
+35) Search for heavy charged long-lived particles in proton-proton collisions at $\\sqrt{s} = 13$ TeV using an ionisation measurement with the ATLAS detector
+10.1016/j.physletb.2018.10.055
+33
+https://inspirehep.net/api/literature/1686832
+article
+ATLAS Collaboration
+2933
+Phys.Lett.B 788 (2019) 
+2019
+Phys.Lett.B
+
+36) Measurement of photon\u2013jet transverse momentum correlations in 5.02 TeV Pb + Pb and $pp$ collisions with ATLAS
+10.1016/j.physletb.2018.12.023
+43
+https://inspirehep.net/api/literature/1694678
+article
+ATLAS Collaboration
+2924
+Phys.Lett.B 789 (2019) 
+2019
+Phys.Lett.B
+
+37) Electron and photon energy calibration with the ATLAS detector using 2015\u20132016 LHC proton-proton collision data
+10.1088/1748-0221/14/03/P03017
+27
+https://inspirehep.net/api/literature/1707967
+article
+ATLAS Collaboration
+2939
+JINST 14 (2019) 
+2019
+JINST
+
+38) Combinations of single-top-quark production cross-section measurements and |f$_{LV}$V$_{tb}$| determinations at $ \\sqrt{s} $ = 7 and 8 TeV with the ATLAS and CMS experiments
+10.1007/JHEP05(2019)088
+23
+https://inspirehep.net/api/literature/1720822
+article
+ATLAS Collaboration
+5214
+JHEP 05 (2019) 
+2019
+JHEP
+
+39) Measurement of the cross-section and charge asymmetry of $W$ bosons produced in proton\u2013proton collisions at $\\sqrt{s}=8~\\text {TeV}$ with the ATLAS detector
+10.1140/epjc/s10052-019-7199-0
+41
+https://inspirehep.net/api/literature/1729240
+article
+ATLAS Collaboration
+2933
+Eur.Phys.J.C 79 (2019) 
+2019
+Eur.Phys.J.C
+
+40) Search for excited electrons singly produced in proton\u2013proton collisions at $\\sqrt{s}=13$ TeV with the ATLAS experiment at the LHC
+10.1140/epjc/s10052-019-7295-1
+7
+https://inspirehep.net/api/literature/1738845
+article
+ATLAS Collaboration
+2888
+Eur.Phys.J.C 79 (2019) 
+2019
+Eur.Phys.J.C
+
+41) Electron and photon performance measurements with the ATLAS detector using the 2015\u20132017 LHC proton-proton collision data
+10.1088/1748-0221/14/12/P12006
+55
+https://inspirehep.net/api/literature/1747555
+article
+ATLAS Collaboration
+2939
+JINST 14 (2019) 
+2019
+JINST
+
+42) Measurement of J/\u03c8 production in association with a W$^{\u00b1}$ boson with pp data at 8 TeV
+10.1007/JHEP01(2020)095
+17
+https://inspirehep.net/api/literature/1756736
+article
+ATLAS Collaboration
+2896
+JHEP 01 (2020) 
+2020
+JHEP
+
+43) Determination of jet calibration and energy resolution in proton-proton collisions at $\\sqrt{s}$ = 8 TeV using the ATLAS detector
+10.1140/epjc/s10052-020-08477-8
+12
+https://inspirehep.net/api/literature/1758442
+article
+ATLAS Collaboration
+2904
+Eur.Phys.J.C 80 (2020) 
+2020
+Eur.Phys.J.C
+
+44) ATLAS data quality operations and performance for 2015\u20132018 data-taking
+10.1088/1748-0221/15/04/P04003
+17
+https://inspirehep.net/api/literature/1764448
+article
+ATLAS Collaboration
+2953
+JINST 15 (2020) 
+2020
+JINST
+
+45) Measurement of the transverse momentum distribution of Drell\u2013Yan lepton pairs in proton\u2013proton collisions at $\\sqrt{s}=13$ TeV with the ATLAS detector
+10.1140/epjc/s10052-020-8001-z
+67
+https://inspirehep.net/api/literature/1768911
+article
+ATLAS Collaboration
+2949
+Eur.Phys.J.C 80 (2020) 
+2020
+Eur.Phys.J.C
+
+46) Test of CP invariance in vector-boson fusion production of the Higgs boson in the H\u202f\u2192\u202f\u03c4\u03c4 channel in proton\u2013proton collisions at s=13TeV with the ATLAS detector
+10.1016/j.physletb.2020.135426
+29
+https://inspirehep.net/api/literature/1780099
+article
+ATLAS Collaboration
+2915
+Phys.Lett.B 805 (2020) 
+2020
+Phys.Lett.B
+
+47) Measurement of azimuthal anisotropy of muons from charm and bottom hadrons in Pb+Pb collisions at <math altimg=\
+10.1016/j.physletb.2020.135595
+23
+https://inspirehep.net/api/literature/1784454
+article
+ATLAS Collaboration
+2924
+Phys.Lett.B 807 (2020) 
+2020
+Phys.Lett.B
+
+48) Search for Higgs Boson Decays into a $Z$ Boson and a Light Hadronically Decaying Resonance Using 13 TeV $pp$ Collision Data from the ATLAS Detector
+10.1103/PhysRevLett.125.221802
+19
+https://inspirehep.net/api/literature/1789583
+article
+ATLAS Collaboration
+2938
+Phys.Rev.Lett. 125 (2020) 
+2020
+Phys.Rev.Lett.
+
+49) Higgs boson production cross-section measurements and their EFT interpretation in the $4\\ell $ decay channel at $\\sqrt{s}=$13 TeV with the ATLAS detector
+10.1140/epjc/s10052-020-8227-9
+82
+https://inspirehep.net/api/literature/1790250
+article
+ATLAS Collaboration
+2943
+Eur.Phys.J.C 80 (2020) 
+2020
+Eur.Phys.J.C
+
+50) Search for heavy diboson resonances in semileptonic final states in pp collisions at $\\sqrt{s}=13$ TeV with the ATLAS detector
+10.1140/epjc/s10052-020-08554-y
+68
+https://inspirehep.net/api/literature/1793572
+article
+ATLAS Collaboration
+2949
+Eur.Phys.J.C 80 (2020) 
+2020
+Eur.Phys.J.C
+
+51) Search for Higgs boson decays into two new low-mass spin-0 particles in the 4$b$ channel with the ATLAS detector using $pp$ collisions at $\\sqrt{s}= 13$ TeV
+10.1103/PhysRevD.102.112006
+31
+https://inspirehep.net/api/literature/1797642
+article
+ATLAS Collaboration
+2952
+Phys.Rev.D 102 (2020) 
+2020
+Phys.Rev.D
+
+52) Search for top squarks in events with a Higgs or $Z$ boson using 139 fb$^{-1}$ of $pp$ collision data at $\\sqrt{s}=13$ TeV with the ATLAS detector
+10.1140/epjc/s10052-020-08469-8
+10
+https://inspirehep.net/api/literature/1800411
+article
+ATLAS Collaboration
+2955
+Eur.Phys.J.C 80 (2020) 
+2020
+Eur.Phys.J.C
+
+53) Differential cross-section measurements for the electroweak production of dijets in association with a $Z$ boson in proton\u2013proton collisions at ATLAS
+10.1140/epjc/s10052-020-08734-w
+28
+https://inspirehep.net/api/literature/1803608
+article
+ATLAS Collaboration
+2953
+Eur.Phys.J.C 81 (2021) 
+2021
+Eur.Phys.J.C
+
+54) Jet energy scale and resolution measured in proton\u2013proton collisions at $\\sqrt{s}=13$\u00a0TeV with the ATLAS detector
+10.1140/epjc/s10052-021-09402-3
+32
+https://inspirehep.net/api/literature/1805279
+article
+ATLAS Collaboration
+2969
+Eur.Phys.J.C 81 (2021) 
+2021
+Eur.Phys.J.C
+
+55) Search for resonances decaying into a weak vector boson and a Higgs boson in the fully hadronic final state produced in proton$-$proton collisions at $\\sqrt{s} = 13$ TeV with the ATLAS detector
+10.1103/PhysRevD.102.112008
+18
+https://inspirehep.net/api/literature/1806507
+article
+ATLAS Collaboration
+2955
+Phys.Rev.D 102 (2020) 
+2020
+Phys.Rev.D
+
+56) Measurements of inclusive and differential cross-sections of combined $ t\\overline{t}\\gamma $ and $tW\\gamma$ production in the e$\\mu$ channel at 13 TeV with the ATLAS detector
+10.1007/JHEP09(2020)049
+28
+https://inspirehep.net/api/literature/1806806
+article
+ATLAS Collaboration
+2954
+JHEP 09 (2020) 
+2020
+JHEP
+
+57) Reconstruction and identification of boosted di-$\\tau$ systems in a search for Higgs boson pairs using 13 TeV proton-proton collision data in ATLAS
+10.1007/JHEP11(2020)163
+17
+https://inspirehep.net/api/literature/1809175
+article
+ATLAS Collaboration
+2944
+JHEP 11 (2020) 
+2020
+JHEP
+
+58) Evidence for $t\\bar{t}t\\bar{t}$ production in the multilepton final state in proton\u2013proton collisions at $\\sqrt{s}=13$ $\\text {TeV}$ with the ATLAS detector
+10.1140/epjc/s10052-020-08509-3
+74
+https://inspirehep.net/api/literature/1809244
+article
+ATLAS Collaboration
+2947
+Eur.Phys.J.C 80 (2020) 
+2020
+Eur.Phys.J.C
+
+59) Search for heavy resonances decaying into a photon and a hadronically decaying Higgs boson in $pp$ collisions at $\\sqrt{s}=13$ TeV with the ATLAS detector
+10.1103/PhysRevLett.125.251802
+5
+https://inspirehep.net/api/literature/1811594
+article
+ATLAS Collaboration
+2954
+Phys.Rev.Lett. 125 (2020) 
+2020
+Phys.Rev.Lett.
+
+60) Optimisation of large-radius jet reconstruction for the ATLAS detector in 13 TeV proton\u2013proton collisions
+10.1140/epjc/s10052-021-09054-3
+13
+https://inspirehep.net/api/literature/1816107
+article
+ATLAS Collaboration
+2951
+Eur.Phys.J.C 81 (2021) 
+2021
+Eur.Phys.J.C
+
+61) Search for heavy resonances decaying into a pair of Z bosons in the $\\ell ^+\\ell ^-\\ell '^+\\ell '^-$ and $\\ell ^+\\ell ^-\\nu {{\\bar{\\nu }}}$ final states using 139 $\\mathrm {fb}^{-1}$ of proton\u2013proton collisions at $\\sqrt{s} = 13\\,$TeV with the ATLAS detector
+10.1140/epjc/s10052-021-09013-y
+90
+https://inspirehep.net/api/literature/1820316
+article
+ATLAS Collaboration
+3076
+Eur.Phys.J.C 81 (2021) 
+2021
+Eur.Phys.J.C
+
+62) Search for pair production of scalar leptoquarks decaying into first- or second-generation leptons and top quarks in proton\u2013proton collisions at $\\sqrt{s}$ = 13 TeV with the ATLAS detector
+10.1140/epjc/s10052-021-09009-8
+43
+https://inspirehep.net/api/literature/1821703
+article
+ATLAS Collaboration
+2937
+Eur.Phys.J.C 81 (2021) 
+2021
+Eur.Phys.J.C
+
+63) Relativistic effects on triple black holes: Burrau\u2019s problem revisited
+10.1093/mnras/stab3124
+2
+https://inspirehep.net/api/literature/1828855
+article
+Chitan, Ariel,Chitan, Ariel,Myll\u00e4ri, Aleksandr,Haque, Shirin
+3
+Mon.Not.Roy.Astron.Soc. 509 (2021) 
+2021
+Mon.Not.Roy.Astron.Soc.
+
+64) Search for dark matter produced in association with a single top quark in $\\sqrt{s}=13$\u00a0TeV $pp$ collisions with the ATLAS detector
+10.1140/epjc/s10052-021-09566-y
+18
+https://inspirehep.net/api/literature/1831036
+article
+ATLAS Collaboration
+2951
+Eur.Phys.J.C 81 (2021) 
+2021
+Eur.Phys.J.C
+
+65) Search for squarks and gluinos in final states with one isolated lepton, jets, and missing transverse momentum at $\\sqrt{s}=13$\u00a0 with the ATLAS detector
+10.1140/epjc/s10052-021-09748-8
+47
+https://inspirehep.net/api/literature/1839446
+article
+ATLAS Collaboration
+2953
+Eur.Phys.J.C 81 (2021) 
+2021
+Eur.Phys.J.C
+
+66) Emulating the impact of additional proton\u2013proton interactions in the ATLAS simulation by presampling sets of inelastic Monte Carlo events
+10.1007/s41781-021-00062-2
+0
+https://inspirehep.net/api/literature/1847316
+article
+ATLAS Collaboration
+2863
+Comput.Softw.Big Sci. 6 (2022) 
+2022
+Comput.Softw.Big Sci.
+
+67) Evidence for Higgs boson decays to a low-mass dilepton system and a photon in pp collisions at <math altimg=\
+10.1016/j.physletb.2021.136412
+21
+https://inspirehep.net/api/literature/1852325
+article
+ATLAS Collaboration
+2888
+Phys.Lett.B 819 (2021) 
+2021
+Phys.Lett.B
+
+68) Measurements of the inclusive and differential production cross sections of a top-quark\u2013antiquark pair in association with a Z\u00a0boson at $\\sqrt{s} = 13$\u00a0TeV with the ATLAS detector
+10.1140/epjc/s10052-021-09439-4
+30
+https://inspirehep.net/api/literature/1853014
+article
+ATLAS Collaboration
+3095
+Eur.Phys.J.C 81 (2021) 
+2021
+Eur.Phys.J.C
+
+69) Performance of the ATLAS Level-1 topological trigger in Run\u00a02
+10.1140/epjc/s10052-021-09807-0
+7
+https://inspirehep.net/api/literature/1861846
+article
+ATLAS Collaboration
+2898
+Eur.Phys.J.C 82 (2022) 
+2022
+Eur.Phys.J.C
+
+70) Search for chargino\u2013neutralino pair production in final states with three leptons and missing transverse momentum in $\\sqrt{s} = 13$\u00a0TeV pp collisions with the ATLAS detector
+10.1140/epjc/s10052-021-09749-7
+103
+https://inspirehep.net/api/literature/1866951
+article
+ATLAS Collaboration
+2919
+Eur.Phys.J.C 81 (2021) 
+2021
+Eur.Phys.J.C
+
+71) Search for R-parity-violating supersymmetry in a final state containing leptons and many jets with the ATLAS experiment using $\\sqrt{s} = 13 { TeV}$ proton\u2013proton collision data
+10.1140/epjc/s10052-021-09761-x
+31
+https://inspirehep.net/api/literature/1869040
+article
+ATLAS Collaboration
+2924
+Eur.Phys.J.C 81 (2021) 
+2021
+Eur.Phys.J.C
+
+72) The ATLAS inner detector trigger performance in pp collisions at 13\u00a0TeV during LHC Run 2
+10.1140/epjc/s10052-021-09920-0
+0
+https://inspirehep.net/api/literature/1877469
+article
+ATLAS Collaboration
+2846
+Eur.Phys.J.C 82 (2022) 
+2022
+Eur.Phys.J.C
+
+73) Test of the universality of $\\tau$ and $\\mu$ lepton couplings in $W$-boson decays with the ATLAS detector
+10.1038/s41567-021-01236-w
+66
+https://inspirehep.net/api/literature/1885958
+article
+ATLAS Collaboration
+2963
+Nature Phys. 17 (2021) 
+2021
+Nature Phys.
+
+74) Search for charginos and neutralinos in final states with two boosted hadronically decaying bosons and missing transverse momentum in $pp$ collisions at $\\sqrt {s}$ = 13\u2009\u2009TeV with the ATLAS detector
+10.1103/PhysRevD.104.112010
+70
+https://inspirehep.net/api/literature/1906174
+article
+ATLAS Collaboration
+2936
+Phys.Rev.D 104 (2021) 
+2021
+Phys.Rev.D
+
+75) Search for heavy particles in the $b$-tagged dijet mass distribution with additional $b$-tagged jets in proton-proton collisions at $\\sqrt s$= 13\u2009\u2009TeV with the ATLAS experiment
+10.1103/PhysRevD.105.012001
+3
+https://inspirehep.net/api/literature/1909506
+article
+ATLAS Collaboration
+2933
+Phys.Rev.D 105 (2022) 
+2022
+Phys.Rev.D
+
+76) Measurement of the energy response of the ATLAS\u00a0calorimeter to charged\u00a0pions from $W^{\\pm }\\rightarrow \\tau ^{\\pm }(\\rightarrow \\pi ^{\\pm }\\nu _{\\tau })\\nu _{\\tau }$ events in Run\u00a02 data
+10.1140/epjc/s10052-022-10117-2
+1
+https://inspirehep.net/api/literature/1909507
+article
+ATLAS Collaboration
+2962
+Eur.Phys.J.C 82 (2022) 
+2022
+Eur.Phys.J.C
+
+77) Observation of electroweak production of two jets in association with an isolated photon and missing transverse momentum, and search for a Higgs boson decaying into invisible particles at 13\u00a0$\\text {TeV}$ with the ATLAS detector
+10.1140/epjc/s10052-021-09878-z
+15
+https://inspirehep.net/api/literature/1915357
+article
+ATLAS Collaboration
+2949
+Eur.Phys.J.C 82 (2022) 
+2022
+Eur.Phys.J.C
+
+78) Operation and performance of the ATLAS semiconductor tracker in LHC Run\u00a02
+10.1088/1748-0221/17/01/P01013
+3
+https://inspirehep.net/api/literature/1917189
+article
+ATLAS Collaboration
+3051
+JINST 17 (2022) 
+2022
+JINST
+
+79) Measurement of the c-jet mistagging efficiency in $t\\bar{t}$\u00a0events using pp collision data at $\\sqrt{s}=13$\u00a0$\\text {TeV}$ collected with the ATLAS detector
+10.1140/epjc/s10052-021-09843-w
+10
+https://inspirehep.net/api/literature/1925493
+article
+ATLAS Collaboration
+2962
+Eur.Phys.J.C 82 (2022) 
+2022
+Eur.Phys.J.C
+
+80) Constraints on Higgs boson properties using $WW^{*}(\\rightarrow e\\nu \\mu \\nu )jj$ production in $36.1\\,\\mathrm{fb}^{-1}$ of $\\sqrt{s}=13$\u00a0TeV pp collisions with the ATLAS detector
+10.1140/epjc/s10052-022-10366-1
+11
+https://inspirehep.net/api/literature/1932467
+article
+ATLAS Collaboration
+2892
+Eur.Phys.J.C 82 (2022) 
+2022
+Eur.Phys.J.C
+
+81) Search for Higgs boson decays into a pair of pseudoscalar particles in the $bb\\mu\\mu$ final state with the ATLAS detector in $pp$ collisions at $\\sqrt s$=13\u2009\u2009TeV
+10.1103/PhysRevD.105.012006
+29
+https://inspirehep.net/api/literature/1937344
+article
+ATLAS Collaboration
+2950
+Phys.Rev.D 105 (2022) 
+2022
+Phys.Rev.D
+
+82) Search for associated production of a Z boson with an invisibly decaying Higgs boson or dark matter candidates at <math altimg=\
+10.1016/j.physletb.2022.137066
+27
+https://inspirehep.net/api/literature/1969392
+article
+ATLAS Collaboration
+2915
+Phys.Lett.B 829 (2022) 
+2022
+Phys.Lett.B
+
+83) Constraints on Higgs boson production with large transverse momentum using <math display=\
+10.1103/PhysRevD.105.092003
+12
+https://inspirehep.net/api/literature/1969589
+article
+ATLAS Collaboration
+2963
+Phys.Rev.D 105 (2022) 
+2022
+Phys.Rev.D
+
+84) Search for flavour-changing neutral-current interactions of a top quark and a gluon in pp collisions at $\\sqrt{s}=13$\u00a0TeV with the ATLAS detector
+10.1140/epjc/s10052-022-10182-7
+13
+https://inspirehep.net/api/literature/1982706
+article
+ATLAS Collaboration
+2955
+Eur.Phys.J.C 82 (2022) 
+2022
+Eur.Phys.J.C
+
+85) A search for an unexpected asymmetry in the production of e+\u03bc\u2212 and e\u2212\u03bc+ pairs in proton\u2013proton collisions recorded by the ATLAS detector at <math altimg=\
+10.1016/j.physletb.2022.137106
+2
+https://inspirehep.net/api/literature/1990948
+article
+ATLAS Collaboration
+2914
+Phys.Lett.B 830 (2022) 
+2022
+Phys.Lett.B
+
+86) Determination of the parton distribution functions of the proton using diverse ATLAS data from $pp$ collisions at $\\sqrt{s} = 7$, 8 and 13\u00a0TeV
+10.1140/epjc/s10052-022-10217-z
+28
+https://inspirehep.net/api/literature/1994965
+article
+ATLAS Collaboration
+2910
+Eur.Phys.J.C 82 (2022) 
+2022
+Eur.Phys.J.C
+
+87) Search for long-lived charginos based on a disappearing-track signature using 136 fb$^{-1}$ of pp collisions at $\\sqrt{s}$\u00a0=\u00a013\u00a0TeV with the ATLAS detector
+10.1140/epjc/s10052-022-10489-5
+49
+https://inspirehep.net/api/literature/2005658
+article
+ATLAS Collaboration
+2926
+Eur.Phys.J.C 82 (2022) 
+2022
+Eur.Phys.J.C
+
+88) Measurements of Higgs boson production cross-sections in the\u00a0$H\\to\\tau^{+}\\tau^{-}$ decay channel in pp collisions at $ \\sqrt{s} $ = 13 TeV with the ATLAS detector
+10.1007/JHEP08(2022)175
+34
+https://inspirehep.net/api/literature/2014187
+article
+ATLAS Collaboration
+2962
+JHEP 08 (2022) 
+2022
+JHEP
+
+89) Observation of $WWW$ Production in $pp$ Collisions at $\\sqrt s$ =13\u2009\u2009TeV with the ATLAS Detector
+10.1103/PhysRevLett.129.061803
+19
+https://inspirehep.net/api/literature/2022440
+article
+ATLAS Collaboration
+2895
+Phys.Rev.Lett. 129 (2022) 
+2022
+Phys.Rev.Lett.
+
+90) Two-particle Bose\u2013Einstein correlations in ${ pp }$ collisions at $\\mathbf {\\sqrt{s} = 13}$\u00a0TeV measured with the ATLAS detector at the LHC
+10.1140/epjc/s10052-022-10472-0
+6
+https://inspirehep.net/api/literature/2027827
+article
+ATLAS Collaboration
+2971
+Eur.Phys.J.C 82 (2022) 
+2022
+Eur.Phys.J.C
+
+91) Measurements of differential cross-sections in top-quark pair events with a high transverse momentum top quark and limits on beyond the Standard Model contributions to top-quark pair production with the ATLAS detector at $ \\sqrt{s} $ = 13 TeV
+10.1007/JHEP06(2022)063
+18
+https://inspirehep.net/api/literature/2037744
+article
+ATLAS Collaboration
+2908
+JHEP 06 (2022) 
+2022
+JHEP
+
+92) Measurements of jet observables sensitive to <math display=\
+10.1103/PhysRevD.106.032008
+10
+https://inspirehep.net/api/literature/2039400
+article
+ATLAS Collaboration
+2972
+Phys.Rev.D 106 (2022) 
+2022
+Phys.Rev.D
+
+93) Search for events with a pair of displaced vertices from long-lived neutral particles decaying into hadronic jets in the ATLAS muon spectrometer in pp collisions at $\\sqrt s$=13\u2009\u2009TeV
+10.1103/PhysRevD.106.032005
+18
+https://inspirehep.net/api/literature/2040545
+article
+ATLAS Collaboration
+2953
+Phys.Rev.D 106 (2022) 
+2022
+Phys.Rev.D
+
+94) Search for Heavy Neutral Leptons in Decays of <math display=\
+10.1103/PhysRevLett.131.061803
+51
+https://inspirehep.net/api/literature/2072355
+article
+ATLAS Collaboration
+2899
+Phys.Rev.Lett. 131 (2023) 
+2023
+Phys.Rev.Lett.
+
+95) Measurement of cross-sections for production of a $Z$ boson in association with a flavor-inclusive or doubly $b$-tagged large-radius jet in proton-proton collisions at $\\sqrt{s} = 13~$TeV with the ATLAS experiment
+10.1103/PhysRevD.108.012022
+1
+https://inspirehep.net/api/literature/2072380
+article
+ATLAS Collaboration
+2907
+Phys.Rev.D 108 (2023) 
+2023
+Phys.Rev.D
+
+96) Searches for new phenomena in events with two leptons, jets, and missing transverse momentum in 139\u00a0fb$^{-1}$ of $\\varvec{\\sqrt{s}}=13$\u00a0TeV $\\varvec{pp}$ collisions with the ATLAS detector
+10.1140/epjc/s10052-023-11434-w
+34
+https://inspirehep.net/api/literature/2072870
+article
+ATLAS Collaboration
+2901
+Eur.Phys.J.C 83 (2023) 
+2023
+Eur.Phys.J.C
+
+97) Observation of the <math display=\
+10.1103/PhysRevLett.131.151802
+29
+https://inspirehep.net/api/literature/2074134
+article
+ATLAS Collaboration
+2942
+Phys.Rev.Lett. 131 (2023) 
+2023
+Phys.Rev.Lett.
+
+98) Search for flavour-changing neutral-current couplings between the top quark and the photon with the ATLAS detector at <math altimg=\
+10.1016/j.physletb.2022.137379
+17
+https://inspirehep.net/api/literature/2077557
+article
+ATLAS Collaboration
+2876
+Phys.Lett.B 842 (2023) 
+2023
+Phys.Lett.B
+
+99) Strong Constraints on Jet Quenching in Centrality-Dependent <math display=\
+10.1103/PhysRevLett.131.072301
+9
+https://inspirehep.net/api/literature/2090791
+article
+ATLAS Collaboration
+2951
+Phys.Rev.Lett. 131 (2023) 
+2023
+Phys.Rev.Lett.
+
+100) Search for resonant WZ production in the fully leptonic final state in proton\u2013proton collisions at $\\mathbf {\\sqrt{s} = 13}$\u00a0TeV with the ATLAS detector
+10.1140/epjc/s10052-023-11437-7
+9
+https://inspirehep.net/api/literature/2107940
+article
+ATLAS Collaboration
+2941
+Eur.Phys.J.C 83 (2023) 
+2023
+Eur.Phys.J.C
+
+101) Measurement of the total and differential Higgs boson production cross-sections at $ \\sqrt{s} $ = 13 TeV with the ATLAS detector by combining the H \u2192 ZZ$^{*}$\u2192 4\u2113 and H \u2192 \u03b3\u03b3 decay channels
+10.1007/JHEP05(2023)028
+18
+https://inspirehep.net/api/literature/2116078
+article
+ATLAS Collaboration
+2972
+JHEP 05 (2023) 
+2023
+JHEP
+
+102) Measurement of the total cross section and $\\rho $-parameter from elastic scattering in pp collisions at $\\sqrt{s}=13$\u00a0TeV with the ATLAS detector
+10.1140/epjc/s10052-023-11436-8
+31
+https://inspirehep.net/api/literature/2122408
+article
+ATLAS Collaboration
+2964
+Eur.Phys.J.C 83 (2023) 
+2023
+Eur.Phys.J.C
+
+103) Test of <math display=\
+10.1103/PhysRevLett.131.061802
+6
+https://inspirehep.net/api/literature/2132341
+article
+ATLAS Collaboration
+2968
+Phys.Rev.Lett. 131 (2023) 
+2023
+Phys.Rev.Lett.
+
+104) Searches for exclusive Higgs and Z boson decays into a vector quarkonium state and a photon using 139\u00a0fb$^{-1}$ of ATLAS $\\sqrt{s}=13$\u00a0TeV proton\u2013proton collision data
+10.1140/epjc/s10052-023-11869-1
+10
+https://inspirehep.net/api/literature/2132750
+article
+ATLAS Collaboration
+2959
+Eur.Phys.J.C 83 (2023) 
+2023
+Eur.Phys.J.C
+
+105) Search for flavour-changing neutral current interactions of the top quark and the Higgs boson in events with a pair of \u03c4-leptons in pp collisions at $ \\sqrt{s} $ = 13 TeV with the ATLAS detector
+10.1007/JHEP06(2023)155
+13
+https://inspirehep.net/api/literature/2141572
+article
+ATLAS Collaboration
+2945
+JHEP 2306 (2023) 
+2023
+JHEP
+
+106) Evidence for the charge asymmetry in pp \u2192 $ t\\overline{t} $ production at $ \\sqrt{s} $ = 13 TeV with the ATLAS detector
+10.1007/JHEP08(2023)077
+8
+https://inspirehep.net/api/literature/2141752
+article
+ATLAS Collaboration
+2935
+JHEP 08 (2023) 
+2023
+JHEP
+
+107) Search for displaced photons produced in exotic decays of the Higgs boson using 13\u00a0TeV <math display=\
+10.1103/PhysRevD.108.032016
+10
+https://inspirehep.net/api/literature/2146266
+article
+ATLAS Collaboration
+2907
+Phys.Rev.D 108 (2023) 
+2023
+Phys.Rev.D
+
+108) Measurements of observables sensitive to colour reconnection in $t{\\bar{t}}$ events with the ATLAS detector at $\\sqrt{s} =$ 13\u00a0TeV
+10.1140/epjc/s10052-023-11479-x
+1
+https://inspirehep.net/api/literature/2152933
+article
+ATLAS Collaboration
+2978
+Eur.Phys.J.C 83 (2023) 
+2023
+Eur.Phys.J.C
+
+109) Measurement of single top-quark production in the s-channel in proton\u2013proton collisions at $ \\sqrt{s} $ = 13 TeV with the ATLAS detector
+10.1007/JHEP06(2023)191
+8
+https://inspirehep.net/api/literature/2153660
+article
+ATLAS Collaboration
+2955
+JHEP 06 (2023) 
+2023
+JHEP
+
+110) Measurement of the polarisation of W bosons produced in top-quark decays using dilepton events at <math altimg=\
+10.1016/j.physletb.2023.137829
+7
+https://inspirehep.net/api/literature/2158391
+article
+ATLAS Collaboration
+2936
+Phys.Lett.B 843 (2023) 
+2023
+Phys.Lett.B
+
+111) Deep Generative Models for Fast Photon Shower Simulation in ATLAS
+10.1007/s41781-023-00106-9
+21
+https://inspirehep.net/api/literature/2164534
+article
+ATLAS Collaboration
+2862
+Comput.Softw.Big Sci. 8 (2024) 
+2024
+Comput.Softw.Big Sci.
+
+112) Search for pair-production of vector-like quarks in pp collision events at <math altimg=\
+10.1016/j.physletb.2023.138019
+33
+https://inspirehep.net/api/literature/2172216
+article
+ATLAS Collaboration
+2881
+Phys.Lett.B 843 (2023) 
+2023
+Phys.Lett.B
+
+113) Search for $ t\\overline{t}H/A\\to t\\overline{t}t\\overline{t} $ production in the multilepton final state in proton\u2013proton collisions at $ \\sqrt{s} $ = 13 TeV with the ATLAS detector
+10.1007/JHEP07(2023)203
+16
+https://inspirehep.net/api/literature/2175533
+article
+ATLAS Collaboration
+2940
+JHEP 07 (2023) 
+2023
+JHEP
+
+114) Constraints on the Higgs boson self-coupling from single- and double-Higgs production with the ATLAS detector using pp collisions at <math altimg=\
+10.1016/j.physletb.2023.137745
+62
+https://inspirehep.net/api/literature/2175556
+article
+ATLAS Collaboration
+2935
+Phys.Lett.B 843 (2023) 
+2023
+Phys.Lett.B
+
+115) Search for doubly charged Higgs boson production in multi-lepton final states using 139\u00a0fb$^{-1}$ of proton\u2013proton collisions at $\\sqrt{s}$ = 13\u00a0TeV with the ATLAS detector
+10.1140/epjc/s10052-023-11578-9
+34
+https://inspirehep.net/api/literature/2181753
+article
+ATLAS Collaboration
+2943
+Eur.Phys.J.C 83 (2023) 
+2023
+Eur.Phys.J.C
+
+116) Search for supersymmetry in final states with missing transverse momentum and three or more b-jets in 139 fb$^{-1}$ of proton\u2013proton collisions at $\\sqrt{s} = 13$\u00a0TeV with the ATLAS detector
+10.1140/epjc/s10052-023-11543-6
+22
+https://inspirehep.net/api/literature/2182381
+article
+ATLAS Collaboration
+2955
+Eur.Phys.J.C 83 (2023) 
+2023
+Eur.Phys.J.C
+
+117) Search for new phenomena in multi-body invariant masses in events with at least one isolated lepton and two jets using $ \\sqrt{s} $ = 13 TeV proton\u2013proton collision data collected by the ATLAS detector
+10.1007/JHEP07(2023)202
+1
+https://inspirehep.net/api/literature/2182769
+article
+ATLAS Collaboration
+2973
+JHEP 07 (2023) 
+2023
+JHEP
+
+118) Observation of gauge boson joint-polarisation states in W\u00b1Z production from pp collisions at <math altimg=\
+10.1016/j.physletb.2023.137895
+17
+https://inspirehep.net/api/literature/2183192
+article
+ATLAS Collaboration
+2933
+Phys.Lett.B 843 (2023) 
+2023
+Phys.Lett.B
+
+119) Measurement of $Z\\gamma \\gamma $ production in pp collisions at $\\sqrt{s}= 13$\u00a0TeV with the ATLAS detector
+10.1140/epjc/s10052-023-11579-8
+5
+https://inspirehep.net/api/literature/2593322
+article
+ATLAS Collaboration
+2969
+Eur.Phys.J.C 83 (2023) 
+2023
+Eur.Phys.J.C
+
+120) Measurement of exclusive pion pair production in proton\u2013proton collisions at $\\sqrt{s}={7}\\,\\text {TeV}$ with the ATLAS detector
+10.1140/epjc/s10052-023-11700-x
+4
+https://inspirehep.net/api/literature/2606496
+article
+ATLAS Collaboration
+2930
+Eur.Phys.J.C 83 (2023) 
+2023
+Eur.Phys.J.C
+
+121) Studies of the muon momentum calibration and performance of the ATLAS detector with $pp$ collisions at $\\sqrt{s}=13$\u00a0TeV
+10.1140/epjc/s10052-023-11584-x
+3
+https://inspirehep.net/api/literature/2614209
+article
+ATLAS Collaboration
+2919
+Eur.Phys.J.C 83 (2023) 
+2023
+Eur.Phys.J.C
+
+122) Search for nonresonant pair production of Higgs bosons in the <math display=\
+10.1103/PhysRevD.108.052003
+22
+https://inspirehep.net/api/literature/2621476
+article
+ATLAS Collaboration
+2935
+Phys.Rev.D 108 (2023) 
+2023
+Phys.Rev.D
+
+123) Measurement of Suppression of Large-Radius Jets and Its Dependence on Substructure in <math display=\
+10.1103/PhysRevLett.131.172301
+11
+https://inspirehep.net/api/literature/2623088
+article
+ATLAS Collaboration
+2908
+Phys.Rev.Lett. 131 (2023) 
+2023
+Phys.Rev.Lett.
+
+124) Calibration of the light-flavour jet mistagging efficiency of the b-tagging algorithms with Z+jets events using 139\u00a0$\\textrm{fb}^{-1}$ of ATLAS proton\u2013proton collision data at $\\sqrt{s} = 13$\u00a0TeV
+10.1140/epjc/s10052-023-11736-z
+2
+https://inspirehep.net/api/literature/2623785
+article
+ATLAS Collaboration
+2971
+Eur.Phys.J.C 83 (2023) 
+2023
+Eur.Phys.J.C
+
+125) Measurements of differential cross sections of Higgs boson production through gluon fusion in the $H\\rightarrow WW^{*}\\rightarrow e\\nu \\mu \\nu $ final state at $\\sqrt{s} = 13$\u00a0TeV with the ATLAS detector
+10.1140/epjc/s10052-023-11873-5
+8
+https://inspirehep.net/api/literature/2623797
+article
+ATLAS Collaboration
+2881
+Eur.Phys.J.C 83 (2023) 
+2023
+Eur.Phys.J.C
+
+126) Search for a new Z' gauge boson in $4\\mu$ events with the ATLAS experiment
+10.1007/JHEP07(2023)090
+12
+https://inspirehep.net/api/literature/2625676
+article
+ATLAS Collaboration
+2973
+JHEP 07 (2023) 
+2023
+JHEP
+
+127) Combination of searches for invisible decays of the Higgs boson using 139 fb\u22121 of proton-proton collision data at <math altimg=\
+10.1016/j.physletb.2023.137963
+67
+https://inspirehep.net/api/literature/2626403
+article
+ATLAS Collaboration
+2878
+Phys.Lett.B 842 (2023) 
+2023
+Phys.Lett.B
+
+128) Search for flavor-changing neutral-current couplings between the top quark and the <math display=\
+10.1103/PhysRevD.108.032019
+14
+https://inspirehep.net/api/literature/2627201
+article
+ATLAS Collaboration
+2904
+Phys.Rev.D 108 (2023) 
+2023
+Phys.Rev.D
+
+129) Probing the CP nature of the top\u2013Higgs Yukawa coupling in <math altimg=\
+10.1016/j.physletb.2024.138469
+20
+https://inspirehep.net/api/literature/2641234
+article
+ATLAS Collaboration
+2902
+Phys.Lett.B 849 (2024) 
+2024
+Phys.Lett.B
+
+130) Search for excited \u03c4-leptons and leptoquarks in the final state with \u03c4-leptons and jets in pp collisions at $ \\sqrt{s} $ = 13 TeV with the ATLAS detector
+10.1007/JHEP06(2023)199
+13
+https://inspirehep.net/api/literature/2643456
+article
+ATLAS Collaboration
+2969
+JHEP 06 (2023) 
+2023
+JHEP
+
+131) Search for heavy long-lived multi-charged particles in the full LHC Run 2 pp collision data at <math altimg=\
+10.1016/j.physletb.2023.138316
+14
+https://inspirehep.net/api/literature/2648109
+article
+ATLAS Collaboration
+2916
+Phys.Lett.B 847 (2023) 
+2023
+Phys.Lett.B
+
+132) Search for top-philic heavy resonances in pp collisions at $\\sqrt{s}=13$\u00a0$\\text {TeV}$ with the ATLAS detector
+10.1140/epjc/s10052-023-12318-9
+5
+https://inspirehep.net/api/literature/2648829
+article
+ATLAS Collaboration
+2960
+Eur.Phys.J.C 84 (2024) 
+2024
+Eur.Phys.J.C
+
+133) Integrated and differential fiducial cross-section measurements for the vector boson fusion production of the Higgs boson in the $H \\rightarrow WW^{\\ast}\\rightarrow e\\nu\\mu\\nu$ decay channel at 13 $\\text{TeV}$ with the ATLAS detector
+10.1103/PhysRevD.108.072003
+9
+https://inspirehep.net/api/literature/2649598
+article
+ATLAS Collaboration
+2968
+Phys.Rev.D 108 (2023) 
+2023
+Phys.Rev.D
+
+134) Test of CP-invariance of the Higgs boson in vector-boson fusion production and in its decay into four leptons
+10.1007/JHEP05(2024)105
+12
+https://inspirehep.net/api/literature/2652624
+article
+ATLAS Collaboration
+2960
+JHEP 05 (2024) 
+2024
+JHEP
+
+135) Search for heavy Majorana or Dirac neutrinos and right-handed W gauge bosons in final states with charged leptons and jets in pp collisions at $\\sqrt{s}=13$\u00a0TeV with the ATLAS detector
+10.1140/epjc/s10052-023-12021-9
+20
+https://inspirehep.net/api/literature/2652625
+article
+ATLAS Collaboration
+2973
+Eur.Phys.J.C 83 (2023) 
+2023
+Eur.Phys.J.C
+
+136) Search for high-mass W\u03b3 and Z\u03b3 resonances using hadronic W/Z boson decays from 139 fb$^{\u22121}$ of pp collisions at $ \\sqrt{s} $ = 13 TeV with the ATLAS detector
+10.1007/JHEP07(2023)125
+3
+https://inspirehep.net/api/literature/2653725
+article
+ATLAS Collaboration
+2942
+JHEP 07 (2023) 
+2023
+JHEP
+
+137) Search in diphoton and dielectron final states for displaced production of Higgs or <math display=\
+10.1103/PhysRevD.108.012012
+5
+https://inspirehep.net/api/literature/2654099
+article
+ATLAS Collaboration
+2973
+Phys.Rev.D 108 (2023) 
+2023
+Phys.Rev.D
+
+138) Search for a new pseudoscalar decaying into a pair of muons in events with a top-quark pair at <math display=\
+10.1103/PhysRevD.108.092007
+3
+https://inspirehep.net/api/literature/2654723
+article
+ATLAS Collaboration
+2979
+Phys.Rev.D 108 (2023) 
+2023
+Phys.Rev.D
+
+139) Search for pairs of muons with small displacements in pp collisions at <math altimg=\
+10.1016/j.physletb.2023.138172
+4
+https://inspirehep.net/api/literature/2656211
+article
+ATLAS Collaboration
+2935
+Phys.Lett.B 846 (2023) 
+2023
+Phys.Lett.B
+
+140) Measurement of muon pairs produced via <math><mrow><mi>\u03b3</mi><mi>\u03b3</mi></mrow></math> scattering in nonultraperipheral <math><mrow><mi>Pb</mi><mo>+</mo><mi>Pb</mi></mrow></math> collisions at <math><mrow><msqrt><msub><mi>s</mi><mrow><mi>N</mi><mi>N</mi></mrow></msub></msqrt><mo>=</mo><mn>5.02</mn></mrow></math> TeV with the ATLAS detector
+10.1103/PhysRevC.107.054907
+10
+https://inspirehep.net/api/literature/2656999
+article
+ATLAS Collaboration
+2936
+Phys.Rev.C 107 (2023) 
+2023
+Phys.Rev.C
+
+141) Search for direct production of winos and higgsinos in events with two same-charge leptons or three leptons in pp collision data at $ \\sqrt{s} $ = 13 TeV with the ATLAS detector
+10.1007/JHEP11(2023)150
+12
+https://inspirehep.net/api/literature/2660233
+article
+ATLAS Collaboration
+2973
+JHEP 11 (2023) 
+2023
+JHEP
+
+142) Production of <math><mrow><mi mathvariant=\
+10.1103/PhysRevC.107.054912
+19
+https://inspirehep.net/api/literature/2661794
+article
+ATLAS Collaboration
+2927
+Phys.Rev.C 107 (2023) 
+2023
+Phys.Rev.C
+
+143) Search for Majorana neutrinos in same-sign WW scattering events from pp collisions at $\\sqrt{s}=13$\u00a0TeV
+10.1140/epjc/s10052-023-11915-y
+11
+https://inspirehep.net/api/literature/2662303
+article
+ATLAS Collaboration
+2975
+Eur.Phys.J.C 83 (2023) 
+2023
+Eur.Phys.J.C
+
+144) Search for leptoquarks decaying into the b\u03c4 final state in $pp$ collisions at $ \\sqrt{\\textrm{s}} $ = 13 TeV with the ATLAS detector
+10.1007/JHEP10(2023)001
+11
+https://inspirehep.net/api/literature/2662587
+article
+ATLAS Collaboration
+2968
+JHEP 10 (2023) 
+2023
+JHEP
+
+145) Observation of <math display=\
+10.1103/PhysRevLett.132.021802
+4
+https://inspirehep.net/api/literature/2663046
+article
+ATLAS Collaboration
+2974
+Phys.Rev.Lett. 132 (2024) 
+2024
+Phys.Rev.Lett.
+
+146) Search for non-resonant production of semi-visible jets using Run 2 data in ATLAS
+10.1016/j.physletb.2023.138324
+12
+https://inspirehep.net/api/literature/2663256
+article
+ATLAS Collaboration
+2924
+Phys.Lett.B 848 (2024) 
+2024
+Phys.Lett.B
+
+147) The ATLAS experiment at the CERN Large Hadron Collider: a description of the detector configuration for Run\u00a03
+10.1088/1748-0221/19/05/P05063
+9
+https://inspirehep.net/api/literature/2663519
+article
+ATLAS Collaboration
+3539
+JINST 19 (2024) 
+2024
+JINST
+
+148) Measurement of the nuclear modification factor of $b$-jets in 5.02\u00a0TeV Pb+Pb collisions with the ATLAS detector
+10.1140/epjc/s10052-023-11427-9
+18
+https://inspirehep.net/api/literature/2663988
+article
+ATLAS Collaboration
+2919
+Eur.Phys.J.C 83 (2023) 
+2023
+Eur.Phys.J.C
+
+149) Combination and summary of ATLAS dark matter searches interpreted in a 2HDM with a pseudo-scalar mediator using 139 fb\u22121 of <math altimg=\
+10.1016/j.scib.2024.06.003
+2
+https://inspirehep.net/api/literature/2664553
+article
+ATLAS Collaboration
+2922
+Sci.Bull. 69 (2024) 
+2024
+Sci.Bull.
+
+150) Anomaly detection search for new resonances decaying into a Higgs boson and a generic new particle $X$ in hadronic final states using $\\sqrt{s} = 13$ TeV $pp$ collisions with the ATLAS detector
+10.1103/PhysRevD.108.052009
+13
+https://inspirehep.net/api/literature/2666488
+article
+ATLAS Collaboration
+2937
+Phys.Rev.D 108 (2023) 
+2023
+Phys.Rev.D
+
+151) Evidence for the Higgs Boson Decay to a <math display=\
+10.1103/PhysRevLett.132.021803
+38
+https://inspirehep.net/api/literature/2666787
+article
+ATLAS Collaboration
+5264
+Phys.Rev.Lett. 132 (2024) 
+2024
+Phys.Rev.Lett.
+
+152) Fast b-tagging at the high-level trigger of the ATLAS experiment in LHC Run\u00a03
+10.1088/1748-0221/18/11/P11006
+2
+https://inspirehep.net/api/literature/2669599
+article
+ATLAS Collaboration
+2933
+JINST 18 (2023) 
+2023
+JINST
+
+153) Measurement of the $H \\rightarrow \\gamma \\gamma $ and $H \\rightarrow ZZ^* \\rightarrow 4 \\ell $ cross-sections in pp collisions at $\\sqrt{s}=13.6$ TeV with the ATLAS detector
+10.1140/epjc/s10052-023-12130-5
+9
+https://inspirehep.net/api/literature/2670270
+article
+ATLAS Collaboration
+2979
+Eur.Phys.J.C 84 (2024) 
+2024
+Eur.Phys.J.C
+
+154) Search for leptoquark pair production decaying into $te^- \\bar{t}e^+$ or $t\\mu ^- \\bar{t}\\mu ^+$ in multi-lepton final states in pp collisions at $\\sqrt{s} = 13\\,\\textrm{TeV}$ with the ATLAS detector
+10.1140/epjc/s10052-024-12975-4
+7
+https://inspirehep.net/api/literature/2673386
+article
+ATLAS Collaboration
+2974
+Eur.Phys.J.C 84 (2024) 
+2024
+Eur.Phys.J.C
+
+155) Search for pair production of squarks or gluinos decaying via sleptons or weak bosons in final states with two same-sign or three leptons with the ATLAS detector
+10.1007/JHEP02(2024)107
+8
+https://inspirehep.net/api/literature/2673888
+article
+ATLAS Collaboration
+2968
+JHEP 02 (2024) 
+2024
+JHEP
+
+156) Search for New Phenomena in Two-Body Invariant Mass Distributions Using Unsupervised Machine Learning for Anomaly Detection at <math display=\
+10.1103/PhysRevLett.132.081801
+13
+https://inspirehep.net/api/literature/2674351
+article
+ATLAS Collaboration
+2971
+Phys.Rev.Lett. 132 (2024) 
+2024
+Phys.Rev.Lett.
+
+157) Search for singly produced vectorlike top partners in multilepton final states with <math display=\
+10.1103/PhysRevD.109.112012
+13
+https://inspirehep.net/api/literature/2677633
+article
+ATLAS Collaboration
+2973
+Phys.Rev.D 109 (2024) 
+2024
+Phys.Rev.D
+
+158) Search for a new heavy scalar particle decaying into a Higgs boson and a new scalar singlet in final states with one or two light leptons and a pair of \u03c4-leptons with the ATLAS detector
+10.1007/JHEP10(2023)009
+2
+https://inspirehep.net/api/literature/2679289
+article
+ATLAS Collaboration
+2971
+JHEP 10 (2023) 
+2023
+JHEP
+
+159) Pursuit of paired dijet resonances in the Run 2 dataset with ATLAS
+10.1103/PhysRevD.108.112005
+1
+https://inspirehep.net/api/literature/2682337
+article
+ATLAS Collaboration
+2987
+Phys.Rev.D 108 (2023) 
+2023
+Phys.Rev.D
+
+160) Search for quantum black hole production in <math display=\
+10.1103/PhysRevD.109.032010
+2
+https://inspirehep.net/api/literature/2682338
+article
+ATLAS Collaboration
+2976
+Phys.Rev.D 109 (2024) 
+2024
+Phys.Rev.D
+
+161) Search for heavy Higgs bosons with flavour-violating couplings in multi-lepton plus b-jets final states in pp collisions at 13 TeV with the ATLAS detector
+10.1007/JHEP12(2023)081
+12
+https://inspirehep.net/api/literature/2682353
+article
+ATLAS Collaboration
+2961
+JHEP 12 (2023) 
+2023
+JHEP
+
+162) Measurement of the $ {B}_s^0 $\u2192 \u03bc\u03bc effective lifetime with the ATLAS detector
+10.1007/JHEP09(2023)199
+4
+https://inspirehep.net/api/literature/2684711
+article
+ATLAS Collaboration
+2983
+JHEP 09 (2023) 
+2023
+JHEP
+
+163) Performance and calibration of quark/gluon-jet taggers using 140 fb$^{\u22121}$ of pp collisions at TeV with the ATLAS detector*
+10.1088/1674-1137/acf701
+2
+https://inspirehep.net/api/literature/2684714
+article
+ATLAS Collaboration
+2981
+Chin.Phys.C 48 (2024) 
+2024
+Chin.Phys.C
+
+164) Observation of $W\\gamma\\gamma$ triboson production in proton-proton collisions at $\\sqrt{s} = 13$ TeV with the ATLAS detector
+10.1016/j.physletb.2023.138400
+4
+https://inspirehep.net/api/literature/2686237
+article
+ATLAS Collaboration
+2934
+Phys.Lett.B 848 (2024) 
+2024
+Phys.Lett.B
+
+165) Search for single vector-like $B$ quark production and decay via $B\\rightarrow bH(b\\bar{b})$ in $pp$ collisions at $\\sqrt{s} = 13$ TeV with the ATLAS detector
+10.1007/JHEP11(2023)168
+9
+https://inspirehep.net/api/literature/2686498
+article
+ATLAS Collaboration
+2911
+JHEP 11 (2023) 
+2023
+JHEP
+
+166) Combined Measurement of the Higgs Boson Mass from the <math display=\
+10.1103/PhysRevLett.131.251802
+20
+https://inspirehep.net/api/literature/2686747
+article
+ATLAS Collaboration
+2992
+Phys.Rev.Lett. 131 (2023) 
+2023
+Phys.Rev.Lett.
+
+167) Measurement of the Higgs boson mass with H\u202f\u2192\u202f\u03b3\u03b3 decays in 140 fb\u22121 of <math altimg=\
+10.1016/j.physletb.2023.138315
+5
+https://inspirehep.net/api/literature/2687977
+article
+ATLAS Collaboration
+2948
+Phys.Lett.B 847 (2023) 
+2023
+Phys.Lett.B
+
+168) Search for vector-boson resonances decaying into a top quark and a bottom quark using pp collisions at $ \\sqrt{s} $ = 13 TeV with the ATLAS detector
+10.1007/JHEP12(2023)073
+5
+https://inspirehep.net/api/literature/2688749
+article
+ATLAS Collaboration
+2971
+JHEP 12 (2023) 
+2023
+JHEP
+
+169) Measurement of the inclusive <math display=\
+10.1103/PhysRevD.108.032014
+0
+https://inspirehep.net/api/literature/2689063
+article
+ATLAS Collaboration
+2929
+Phys.Rev.D 108 (2023) 
+2023
+Phys.Rev.D
+
+170) Measurement of the <math altimg=\
+10.1016/j.physletb.2023.138376
+8
+https://inspirehep.net/api/literature/2689657
+article
+ATLAS Collaboration
+2952
+Phys.Lett.B 848 (2024) 
+2024
+Phys.Lett.B
+
+171) Software Performance of the ATLAS Track Reconstruction for LHC Run 3
+10.1007/s41781-023-00111-y
+1
+https://inspirehep.net/api/literature/2689672
+article
+ATLAS Collaboration
+2982
+Comput.Softw.Big Sci. 8 (2024) 
+2024
+Comput.Softw.Big Sci.
+
+172) Differential cross-section measurements of the production of four charged leptons in association with two jets using the ATLAS detector
+10.1007/JHEP01(2024)004
+5
+https://inspirehep.net/api/literature/2690799
+article
+ATLAS Collaboration
+2969
+JHEP 01 (2024) 
+2024
+JHEP
+
+173) Electron and photon efficiencies in LHC Run 2 with the ATLAS experiment
+10.1007/JHEP05(2024)162
+0
+https://inspirehep.net/api/literature/2691149
+article
+ATLAS Collaboration
+2979
+JHEP 05 (2024) 
+2024
+JHEP
+
+174) Azimuthal Angle Correlations of Muons Produced via Heavy-Flavor Decays in 5.02\u00a0TeV <math display=\
+10.1103/PhysRevLett.132.202301
+5
+https://inspirehep.net/api/literature/2692446
+article
+ATLAS Collaboration
+2989
+Phys.Rev.Lett. 132 (2024) 
+2024
+Phys.Rev.Lett.
+
+175) Measurement of the Centrality Dependence of the Dijet Yield in <math display=\
+10.1103/PhysRevLett.132.102301
+1
+https://inspirehep.net/api/literature/2693068
+article
+ATLAS Collaboration
+2991
+Phys.Rev.Lett. 132 (2024) 
+2024
+Phys.Rev.Lett.
+
+176) Search for the Z\u03b3 decay mode of new high-mass resonances in pp collisions at <math altimg=\
+10.1016/j.physletb.2023.138394
+6
+https://inspirehep.net/api/literature/2695554
+article
+ATLAS Collaboration
+2929
+Phys.Lett.B 848 (2024) 
+2024
+Phys.Lett.B
+
+177) Electron and photon energy calibration with the ATLAS detector using LHC Run\u00a02 data
+10.1088/1748-0221/19/02/P02009
+0
+https://inspirehep.net/api/literature/2696998
+article
+ATLAS Collaboration
+2994
+JINST 19 (2024) 
+2024
+JINST
+
+178) A precise measurement of the Z-boson double-differential transverse momentum and rapidity distributions in the full phase space of the decay leptons with the ATLAS experiment at\u00a0$\\sqrt{s}=8$\u00a0TeV
+10.1140/epjc/s10052-024-12438-w
+9
+https://inspirehep.net/api/literature/2698794
+article
+ATLAS Collaboration
+2974
+Eur.Phys.J.C 84 (2024) 
+2024
+Eur.Phys.J.C
+
+179) Search for flavour-changing neutral tqH interactions with H \u2192 \u03b3\u03b3 in pp collisions at $ \\sqrt{s} $ = 13 TeV using the ATLAS detector
+10.1007/JHEP12(2023)195
+16
+https://inspirehep.net/api/literature/2702149
+article
+ATLAS Collaboration
+2986
+JHEP 12 (2023) 
+2023
+JHEP
+
+180) Search for the Exclusive <math display=\
+10.1103/PhysRevLett.133.161804
+3
+https://inspirehep.net/api/literature/2704123
+article
+ATLAS Collaboration
+2994
+Phys.Rev.Lett. 133 (2024) 
+2024
+Phys.Rev.Lett.
+
+181) Measurement of the production cross-section of $J/\\psi $ and $\\psi (2{\\textrm{S}})$ mesons in pp collisions at $\\sqrt{s} = 13$\u00a0TeV with the ATLAS detector
+10.1140/epjc/s10052-024-12439-9
+2
+https://inspirehep.net/api/literature/2705040
+article
+ATLAS Collaboration
+2989
+Eur.Phys.J.C 84 (2024) 
+2024
+Eur.Phys.J.C
+
+182) Measurement of t-channel single-top-quark production in pp collisions at <math altimg=\
+10.1016/j.physletb.2024.138726
+0
+https://inspirehep.net/api/literature/2705679
+article
+ATLAS Collaboration
+2930
+Phys.Lett.B 854 (2024) 
+2024
+Phys.Lett.B
+
+183) Evidence of pair production of longitudinally polarised vector bosons and study of CP properties in ZZ \u2192 4\u2113 events with the ATLAS detector at $ \\sqrt{s} $ = 13 TeV
+10.1007/JHEP12(2023)107
+16
+https://inspirehep.net/api/literature/2709671
+article
+ATLAS Collaboration
+2990
+JHEP 12 (2023) 
+2023
+JHEP
+
+184) Search for direct production of electroweakinos in final states with one lepton, jets and missing transverse momentum in pp collisions at $ \\sqrt{s} $ = 13 TeV with the ATLAS detector
+10.1007/JHEP12(2023)167
+6
+https://inspirehep.net/api/literature/2710022
+article
+ATLAS Collaboration
+2984
+JHEP 12 (2023) 
+2023
+JHEP
+
+185) Search for non-resonant Higgs boson pair production in the $ 2b+2\\ell +{E}_{\\textrm{T}}^{\\textrm{miss}} $ final state in pp collisions at $ \\sqrt{s} $ = 13 TeV with the ATLAS detector
+10.1007/JHEP02(2024)037
+1
+https://inspirehep.net/api/literature/2711979
+article
+ATLAS Collaboration
+2974
+JHEP 02 (2024) 
+2024
+JHEP
+
+186) Study of $Z \\rightarrow ll\\gamma $ decays at $\\sqrt{s}$\u00a0= 8 TeV with the ATLAS detector
+10.1140/epjc/s10052-024-12471-9
+2
+https://inspirehep.net/api/literature/2712353
+article
+ATLAS Collaboration
+2972
+Eur.Phys.J.C 84 (2024) 
+2024
+Eur.Phys.J.C
+
+187) Studies of new Higgs boson interactions through nonresonant HH production in the $ b\\overline{b}\\gamma \\gamma $ final state in pp collisions at $ \\sqrt{s} $ = 13 TeV with the ATLAS detector
+10.1007/JHEP01(2024)066
+9
+https://inspirehep.net/api/literature/2712676
+article
+ATLAS Collaboration
+2992
+JHEP 01 (2024) 
+2024
+JHEP
+
+188) Improving topological cluster reconstruction using calorimeter cell timing in ATLAS
+10.1140/epjc/s10052-024-12657-1
+0
+https://inspirehep.net/api/literature/2713959
+article
+ATLAS Collaboration
+2985
+Eur.Phys.J.C 84 (2024) 
+2024
+Eur.Phys.J.C
+
+189) Search for a CP-odd Higgs boson decaying into a heavy CP-even Higgs boson and a Z boson in the $ {\\ell}^{+}{\\ell}^{-}t\\overline{t} $ and $ \\nu \\overline{\\nu}b\\overline{b} $ final states using 140 fb$^{\u22121}$ of data collected with the ATLAS detector
+10.1007/JHEP02(2024)197
+8
+https://inspirehep.net/api/literature/2719822
+article
+ATLAS Collaboration
+2982
+JHEP 02 (2024) 
+2024
+JHEP
+
+190) Search for resonant production of dark quarks in the dijet final state with the ATLAS detector
+10.1007/JHEP02(2024)128
+3
+https://inspirehep.net/api/literature/2719976
+article
+ATLAS Collaboration
+2990
+JHEP 02 (2024) 
+2024
+JHEP
+
+191) Observation of quantum entanglement with top quarks at the ATLAS detector
+10.1038/s41586-024-07824-z
+61
+https://inspirehep.net/api/literature/2721895
+article
+ATLAS Collaboration
+2928
+Nature 633 (2024) 
+2024
+Nature
+
+192) Simultaneous energy and mass calibration of large-radius jets with the ATLAS detector using a deep neural network
+10.1088/2632-2153/ad611e
+1
+https://inspirehep.net/api/literature/2722720
+article
+ATLAS Collaboration
+2914
+Mach.Learn.Sci.Tech. 5 (2024) 
+2024
+Mach.Learn.Sci.Tech.
+
+193) Measurement of ZZ production cross-sections in the four-lepton final state in pp collisions at <math altimg=\
+10.1016/j.physletb.2024.138764
+3
+https://inspirehep.net/api/literature/2723369
+article
+ATLAS Collaboration
+2936
+Phys.Lett.B 855 (2024) 
+2024
+Phys.Lett.B
+
+194) Combination of Searches for Resonant Higgs Boson Pair Production Using <math display=\
+10.1103/PhysRevLett.132.231801
+4
+https://inspirehep.net/api/literature/2726938
+article
+ATLAS Collaboration
+2922
+Phys.Rev.Lett. 132 (2024) 
+2024
+Phys.Rev.Lett.
+
+195) Search for light long-lived neutral particles from Higgs boson decays via vector-boson-fusion production from pp collisions at $\\sqrt{s}=13$ TeV with the ATLAS detector
+10.1140/epjc/s10052-024-12902-7
+2
+https://inspirehep.net/api/literature/2728869
+article
+ATLAS Collaboration
+2995
+Eur.Phys.J.C 84 (2024) 
+2024
+Eur.Phys.J.C
+
+196) Measurement and interpretation of same-sign W boson pair production in association with two jets in pp collisions at $ \\sqrt{s} $ = 13 TeV with the ATLAS detector
+10.1007/JHEP04(2024)026
+6
+https://inspirehep.net/api/literature/2729396
+article
+ATLAS Collaboration
+2971
+JHEP 04 (2024) 
+2024
+JHEP
+
+197) Search for the decay of the Higgs boson to a $Z$ boson and a light pseudoscalar particle decaying to two photons
+10.1016/j.physletb.2024.138536
+2
+https://inspirehep.net/api/literature/2729877
+article
+ATLAS Collaboration
+2936
+Phys.Lett.B 850 (2024) 
+2024
+Phys.Lett.B
+
+198) Measurement of the VH,H\u202f\u2192\u202f\u03c4\u03c4 process with the ATLAS detector at 13 TeV
+10.1016/j.physletb.2024.138817
+3
+https://inspirehep.net/api/literature/2730582
+article
+ATLAS Collaboration
+2890
+Phys.Lett.B 855 (2024) 
+2024
+Phys.Lett.B
+
+199) Measurement of the Z boson invisible width at <math altimg=\
+10.1016/j.physletb.2024.138705
+0
+https://inspirehep.net/api/literature/2730743
+article
+ATLAS Collaboration
+2950
+Phys.Lett.B 854 (2024) 
+2024
+Phys.Lett.B
+
+200) Search for short- and long-lived axion-like particles in $H\\rightarrow a a \\rightarrow 4\\gamma $ decays with the ATLAS experiment at the LHC
+10.1140/epjc/s10052-024-12979-0
+4
+https://inspirehep.net/api/literature/2731621
+article
+ATLAS Collaboration
+2993
+Eur.Phys.J.C 84 (2024) 
+2024
+Eur.Phys.J.C
+
+201) Measurement of jet substructure in boosted <math display=\
+10.1103/PhysRevD.109.112016
+1
+https://inspirehep.net/api/literature/2732688
+article
+ATLAS Collaboration
+2973
+Phys.Rev.D 109 (2024) 
+2024
+Phys.Rev.D
+
+202) Study of High-Transverse-Momentum Higgs Boson Production in Association with a Vector Boson in the <math display=\
+10.1103/PhysRevLett.132.131802
+1
+https://inspirehep.net/api/literature/2736741
+article
+ATLAS Collaboration
+2976
+Phys.Rev.Lett. 132 (2024) 
+2024
+Phys.Rev.Lett.
+
+203) Inclusive and differential cross-section measurements of $ t\\overline{t}Z $ production in pp collisions at $ \\sqrt{s} $ = 13 TeV with the ATLAS detector, including EFT and spin-correlation interpretations
+10.1007/JHEP07(2024)163
+4
+https://inspirehep.net/api/literature/2744513
+article
+ATLAS Collaboration
+2973
+JHEP 07 (2024) 
+2024
+JHEP
+
+204) Measurement of the total and differential cross-sections of $ t\\overline{t}W $ production in pp collisions at $ \\sqrt{s} $ = 13 TeV with the ATLAS detector
+10.1007/JHEP05(2024)131
+7
+https://inspirehep.net/api/literature/2745375
+article
+ATLAS Collaboration
+2964
+JHEP 05 (2024) 
+2024
+JHEP
+
+205) Search for heavy resonances in final states with four leptons and missing transverse momentum or jets in pp collisions at $ \\sqrt{s} $ = 13 TeV with the ATLAS detector
+10.1007/JHEP10(2024)130
+1
+https://inspirehep.net/api/literature/2745376
+article
+ATLAS Collaboration
+2916
+JHEP 10 (2024) 
+2024
+JHEP
+
+206) The ATLAS trigger system for LHC Run 3 and trigger performance in 2022
+10.1088/1748-0221/19/06/P06029
+3
+https://inspirehep.net/api/literature/2746398
+article
+ATLAS Collaboration
+2931
+JINST 19 (2024) 
+2024
+JINST
+
+207) Combination of searches for pair-produced leptoquarks at <math altimg=\
+10.1016/j.physletb.2024.138736
+5
+https://inspirehep.net/api/literature/2750164
+article
+ATLAS Collaboration
+2876
+Phys.Lett.B 854 (2024) 
+2024
+Phys.Lett.B
+
+208) Search for new phenomena with top-quark pairs and large missing transverse momentum using 140 fb$^{\u22121}$ of pp collision data at $ \\sqrt{s} $ = 13 TeV with the ATLAS detector
+10.1007/JHEP03(2024)139
+1
+https://inspirehep.net/api/literature/2751107
+article
+ATLAS Collaboration
+2930
+JHEP 03 (2024) 
+2024
+JHEP
+
+209) Search for Nearly Mass-Degenerate Higgsinos Using Low-Momentum Mildly Displaced Tracks in <math display=\
+10.1103/PhysRevLett.132.221801
+6
+https://inspirehep.net/api/literature/2751400
+article
+ATLAS Collaboration
+2949
+Phys.Rev.Lett. 132 (2024) 
+2024
+Phys.Rev.Lett.
+
+210) Search for pair production of higgsinos in events with two Higgs bosons and missing transverse momentum in <math display=\
+10.1103/PhysRevD.109.112011
+5
+https://inspirehep.net/api/literature/2751932
+article
+ATLAS Collaboration
+2991
+Phys.Rev.D 109 (2024) 
+2024
+Phys.Rev.D
+
+211) A search for R-parity-violating supersymmetry in final states containing many jets in pp collisions at $ \\sqrt{s} $ = 13 TeV with the ATLAS detector
+10.1007/JHEP05(2024)003
+2
+https://inspirehep.net/api/literature/2752508
+article
+ATLAS Collaboration
+2989
+JHEP 05 (2024) 
+2024
+JHEP
+
+212) Search for pair-production of vector-like quarks in lepton+jets final states containing at least one b-tagged jet using the Run 2 data from the ATLAS experiment
+10.1016/j.physletb.2024.138743
+8
+https://inspirehep.net/api/literature/2753146
+article
+ATLAS Collaboration
+2891
+Phys.Lett.B 854 (2024) 
+2024
+Phys.Lett.B
+
+213) Determination of the Relative Sign of the Higgs Boson Couplings to <math display=\
+10.1103/PhysRevLett.133.141801
+6
+https://inspirehep.net/api/literature/2753923
+article
+ATLAS Collaboration
+2980
+Phys.Rev.Lett. 133 (2024) 
+2024
+Phys.Rev.Lett.
+
+214) Search for electroweak production of supersymmetric particles in final states with two \u03c4-leptons in $ \\sqrt{s} $ = 13 TeV pp collisions with the ATLAS detector
+10.1007/JHEP05(2024)150
+3
+https://inspirehep.net/api/literature/2754043
+article
+ATLAS Collaboration
+2968
+JHEP 05 (2024) 
+2024
+JHEP
+
+215) ATLAS Run 2 searches for electroweak production of supersymmetric particles interpreted within the pMSSM
+10.1007/JHEP05(2024)106
+4
+https://inspirehep.net/api/literature/2755168
+article
+ATLAS Collaboration
+2988
+JHEP 05 (2024) 
+2024
+JHEP
+
+216) Interpretations of the ATLAS measurements of Higgs boson production and decay rates and differential cross-sections in pp collisions at $ \\sqrt{s} $ = 13 TeV
+10.1007/JHEP11(2024)097
+13
+https://inspirehep.net/api/literature/2756714
+article
+ATLAS Collaboration
+3000
+JHEP 11 (2024) 
+2024
+JHEP
+
+217) Performance of the ATLAS forward proton Time-of-Flight detector in Run 2
+10.1088/1748-0221/19/05/P05054
+0
+https://inspirehep.net/api/literature/2757283
+article
+ATLAS Collaboration
+2922
+JINST 19 (2024) 
+2024
+JINST
+
+218) Statistical Combination of ATLAS Run 2 Searches for Charginos and Neutralinos at the LHC
+10.1103/PhysRevLett.133.031802
+9
+https://inspirehep.net/api/literature/2758009
+article
+ATLAS Collaboration
+2992
+Phys.Rev.Lett. 133 (2024) 
+2024
+Phys.Rev.Lett.
+
+219) Combination of searches for heavy spin-1 resonances using 139 fb$^{\u22121}$ of proton-proton collision data at $ \\sqrt{s} $ = 13 TeV with the ATLAS detector
+10.1007/JHEP04(2024)118
+2
+https://inspirehep.net/api/literature/2759101
+article
+ATLAS Collaboration
+2948
+JHEP 04 (2024) 
+2024
+JHEP
+
+220) A search for top-squark pair production, in final states containing a top quark, a charm quark and missing transverse momentum, using the 139 fb$^{\u22121}$ of pp collision data collected by the ATLAS detector
+10.1007/JHEP07(2024)250
+0
+https://inspirehep.net/api/literature/2759516
+article
+ATLAS Collaboration
+2989
+JHEP 07 (2024) 
+2024
+JHEP
+
+221) Measurements of Lund subjet multiplicities in 13 TeV proton-proton collisions with the ATLAS detector
+10.1016/j.physletb.2024.139090
+1
+https://inspirehep.net/api/literature/2759899
+article
+ATLAS Collaboration
+2911
+Phys.Lett.B 859 (2024) 
+2024
+Phys.Lett.B
+
+222) Search for a new <math display=\
+10.1103/PhysRevD.110.072008
+3
+https://inspirehep.net/api/literature/2761384
+article
+ATLAS Collaboration
+2928
+Phys.Rev.D 110 (2024) 
+2024
+Phys.Rev.D
+
+223) Studies of the Energy Dependence of Diboson Polarization Fractions and the Radiation-Amplitude-Zero Effect in <math display=\
+10.1103/PhysRevLett.133.101802
+6
+https://inspirehep.net/api/literature/2762099
+article
+ATLAS Collaboration
+2959
+Phys.Rev.Lett. 133 (2024) 
+2024
+Phys.Rev.Lett.
+
+224) Search for high-mass resonances in final states with a <math display=\
+10.1103/PhysRevD.109.112008
+5
+https://inspirehep.net/api/literature/2762382
+article
+ATLAS Collaboration
+2876
+Phys.Rev.D 109 (2024) 
+2024
+Phys.Rev.D
+
+225) Search for new particles in final states with a boosted top quark and missing transverse momentum in proton-proton collisions at $ \\sqrt{s} $ = 13 TeV with the ATLAS detector
+10.1007/JHEP05(2024)263
+3
+https://inspirehep.net/api/literature/2762383
+article
+ATLAS Collaboration
+2973
+JHEP 05 (2024) 
+2024
+JHEP
+
+226) Searches for exclusive Higgs boson decays into D\u204e\u03b3 and Z boson decays into D0\u03b3 and <math altimg=\
+10.1016/j.physletb.2024.138762
+2
+https://inspirehep.net/api/literature/2763131
+article
+ATLAS Collaboration
+2916
+Phys.Lett.B 855 (2024) 
+2024
+Phys.Lett.B
+
+227) Precise test of lepton flavour universality in $\\varvec{W}$-boson decays into muons and electrons in $\\varvec{pp}$ collisions at $\\varvec{\\sqrt{s}}=13\\,\\text {T}\\text {e}\\hspace{-1.00006pt}\\text {V} $ with the ATLAS detector
+10.1140/epjc/s10052-024-13070-4
+2
+https://inspirehep.net/api/literature/2764810
+article
+ATLAS Collaboration
+2940
+Eur.Phys.J.C 84 (2024) 
+2024
+Eur.Phys.J.C
+
+228) Measurement of t-channel production of single top quarks and antiquarks in pp collisions at 13 TeV using the full ATLAS Run 2 data sample
+10.1007/JHEP05(2024)305
+0
+https://inspirehep.net/api/literature/2764820
+article
+ATLAS Collaboration
+2968
+JHEP 05 (2024) 
+2024
+JHEP
+
+229) Differential cross-sections for events with missing transverse momentum and jets measured with the ATLAS detector in 13 TeV proton-proton collisions
+10.1007/JHEP08(2024)223
+3
+https://inspirehep.net/api/literature/2765017
+article
+ATLAS Collaboration
+2946
+JHEP 08 (2024) 
+2024
+JHEP
+
+230) Fiducial and differential cross-section measurements of electroweak $W\\gamma jj$ production in pp collisions at $\\sqrt{s} = 13$ TeV with the ATLAS detector
+10.1140/epjc/s10052-024-13311-6
+1
+https://inspirehep.net/api/literature/2765267
+article
+ATLAS Collaboration
+2959
+Eur.Phys.J.C 84 (2024) 
+2024
+Eur.Phys.J.C
+
+231) Observation of electroweak production of W$^{+}$W$^{\u2212}$ in association with jets in proton-proton collisions at $ \\sqrt{s} $ = 13 TeV with the ATLAS detector
+10.1007/JHEP07(2024)254
+3
+https://inspirehep.net/api/literature/2766986
+article
+ATLAS Collaboration
+2988
+JHEP 07 (2024) 
+2024
+JHEP
+
+232) Search for charged-lepton-flavor violating <math display=\
+10.1103/PhysRevD.110.012014
+3
+https://inspirehep.net/api/literature/2767173
+article
+ATLAS Collaboration
+2957
+Phys.Rev.D 110 (2024) 
+2024
+Phys.Rev.D
+
+233) Search for low-mass resonances decaying into two jets and produced in association with a photon or a jet at <math display=\
+10.1103/PhysRevD.110.032002
+0
+https://inspirehep.net/api/literature/2768375
+article
+ATLAS Collaboration
+2959
+Phys.Rev.D 110 (2024) 
+2024
+Phys.Rev.D
+
+234) Measurements of inclusive and differential cross-sections of $ t\\overline{t}\\gamma $ production in pp collisions at $ \\sqrt{s} $ = 13 TeV with the ATLAS detector
+10.1007/JHEP10(2024)191
+3
+https://inspirehep.net/api/literature/2768921
+article
+ATLAS Collaboration
+2948
+JHEP 10 (2024) 
+2024
+JHEP
+
+235) Measurement of vector boson production cross sections and their ratios using pp collisions at <math altimg=\
+10.1016/j.physletb.2024.138725
+0
+https://inspirehep.net/api/literature/2770237
+article
+ATLAS Collaboration
+2901
+Phys.Lett.B 854 (2024) 
+2024
+Phys.Lett.B
+
+236) Search for Light Long-Lived Particles in <math display=\
+10.1103/PhysRevLett.133.161803
+2
+https://inspirehep.net/api/literature/2771255
+article
+ATLAS Collaboration
+2963
+Phys.Rev.Lett. 133 (2024) 
+2024
+Phys.Rev.Lett.
+
+237) Measurements of electroweak W$^{\u00b1}$Z boson pair production in association with two jets in pp collisions at $ \\sqrt{s} $ = 13 TeV with the ATLAS detector
+10.1007/JHEP06(2024)192
+3
+https://inspirehep.net/api/literature/2771256
+article
+ATLAS Collaboration
+2941
+JHEP 06 (2024) 
+2024
+JHEP
+
+238) Measurements of the production cross-section for a Z boson in association with b- or c-jets in proton\u2013proton collisions at $\\sqrt{s} = 13$ TeV with the ATLAS detector
+10.1140/epjc/s10052-024-13159-w
+3
+https://inspirehep.net/api/literature/2771257
+article
+ATLAS Collaboration
+2945
+Eur.Phys.J.C 84 (2024) 
+2024
+Eur.Phys.J.C
+
+239) Search for pair-produced higgsinos decaying via Higgs or Z bosons to final states containing a pair of photons and a pair of b-jets with the ATLAS detector
+10.1016/j.physletb.2024.138938
+0
+https://inspirehep.net/api/literature/2773395
+article
+ATLAS Collaboration
+2930
+Phys.Lett.B 856 (2024) 
+2024
+Phys.Lett.B
+
+240) Search for flavour-changing neutral-current couplings between the top quark and the Higgs boson in multi-lepton final states in 13\u00a0TeV pp collisions with the ATLAS detector
+10.1140/epjc/s10052-024-12994-1
+4
+https://inspirehep.net/api/literature/2773613
+article
+ATLAS Collaboration
+2956
+Eur.Phys.J.C 84 (2024) 
+2024
+Eur.Phys.J.C
+
+241) Precise measurements of W- and Z-boson transverse momentum spectra with the ATLAS detector using pp collisions at $\\sqrt{s} = 5.02$ TeV and 13 TeV
+10.1140/epjc/s10052-024-13414-0
+4
+https://inspirehep.net/api/literature/2775442
+article
+ATLAS Collaboration
+2975
+Eur.Phys.J.C 84 (2024) 
+2024
+Eur.Phys.J.C
+
+242) Search for heavy Majorana neutrinos in e\u00b1e\u00b1 and e\u00b1\u03bc\u00b1 final states via WW scattering in pp collisions at <math altimg=\
+10.1016/j.physletb.2024.138865
+5
+https://inspirehep.net/api/literature/2778961
+article
+ATLAS Collaboration
+2928
+Phys.Lett.B 856 (2024) 
+2024
+Phys.Lett.B
+
+243) Search for a resonance decaying into a scalar particle and a Higgs boson in the final state with two bottom quarks and two photons in proton\u2013proton collisions at $ \\sqrt{s} $ = 13 TeV with the ATLAS detector
+10.1007/JHEP11(2024)047
+2
+https://inspirehep.net/api/literature/2779339
+article
+ATLAS Collaboration
+2928
+JHEP 11 (2024) 
+2024
+JHEP
+
+244) Constraints on simplified dark matter models involving an s-channel mediator with the ATLAS detector in pp collisions at $\\sqrt{s} = 13$\u00a0TeV
+10.1140/epjc/s10052-024-13215-5
+1
+https://inspirehep.net/api/literature/2780977
+article
+ATLAS Collaboration
+2960
+Eur.Phys.J.C 84 (2024) 
+2024
+Eur.Phys.J.C
+
+245) Search for pair production of boosted Higgs bosons via vector-boson fusion in the <math altimg=\
+10.1016/j.physletb.2024.139007
+3
+https://inspirehep.net/api/literature/2781483
+article
+ATLAS Collaboration
+2921
+Phys.Lett.B 858 (2024) 
+2024
+Phys.Lett.B
+
+246) Search for heavy neutral Higgs bosons decaying into a top quark pair in 140 fb$^{\u22121}$ of proton-proton collision data at $ \\sqrt{s} $ = 13 TeV with the ATLAS detector
+10.1007/JHEP08(2024)013
+7
+https://inspirehep.net/api/literature/2782461
+article
+ATLAS Collaboration
+2950
+JHEP 08 (2024) 
+2024
+JHEP
+
+247) Calibration of a soft secondary vertex tagger using proton-proton collisions at <math display=\
+10.1103/PhysRevD.110.032015
+0
+https://inspirehep.net/api/literature/2783525
+article
+ATLAS Collaboration
+2961
+Phys.Rev.D 110 (2024) 
+2024
+Phys.Rev.D
+
+248) Observation of $ t\\overline{t} $ production in the lepton+jets and dilepton channels in p+Pb collisions at $ \\sqrt{s_{\\textrm{NN}}} $ = 8.16 TeV with the ATLAS detector
+10.1007/JHEP11(2024)101
+1
+https://inspirehep.net/api/literature/2784411
+article
+ATLAS Collaboration
+2940
+JHEP 11 (2024) 
+2024
+JHEP
+
+249) Beam-induced backgrounds measured in the ATLAS detector during local gas injection into the LHC beam vacuum
+10.1088/1748-0221/19/06/P06014
+0
+https://inspirehep.net/api/literature/2784423
+article
+ATLAS Collaboration
+2962
+JINST 19 (2024) 
+2024
+JINST
+
+250) Combination of Measurements of the Top Quark Mass from Data Collected by the ATLAS and CMS Experiments at <math display=\
+10.1103/PhysRevLett.132.261902
+3
+https://inspirehep.net/api/literature/2789110
+article
+ATLAS Collaboration
+5239
+Phys.Rev.Lett. 132 (2024) 
+2024
+Phys.Rev.Lett.
+
+251) Measurements of jet cross-section ratios in 13\u00a0TeV proton-proton collisions with ATLAS
+10.1103/PhysRevD.110.072019
+1
+https://inspirehep.net/api/literature/2791854
+article
+ATLAS Collaboration
+2960
+Phys.Rev.D 110 (2024) 
+2024
+Phys.Rev.D
+
+252) Search for pair-produced vectorlike quarks coupling to light quarks in the lepton plus jets final state using 13\u00a0TeV <math display=\
+10.1103/PhysRevD.110.052009
+4
+https://inspirehep.net/api/literature/2791855
+article
+ATLAS Collaboration
+2959
+Phys.Rev.D 110 (2024) 
+2024
+Phys.Rev.D
+
+253) Search for dark mesons decaying to top and bottom quarks in proton-proton collisions at $ \\sqrt{\\textrm{s}} $ = 13 TeV with the ATLAS detector
+10.1007/JHEP09(2024)005
+0
+https://inspirehep.net/api/literature/2791856
+article
+ATLAS Collaboration
+2966
+JHEP 09 (2024) 
+2024
+JHEP
+
+254) Search for non-resonant Higgs boson pair production in final states with leptons, taus, and photons in pp collisions at $ \\sqrt{s} $ = 13 TeV with the ATLAS detector
+10.1007/JHEP08(2024)164
+4
+https://inspirehep.net/api/literature/2791857
+article
+ATLAS Collaboration
+2957
+JHEP 08 (2024) 
+2024
+JHEP
+
+255) Search for a resonance decaying into a scalar particle and a Higgs boson in final states with leptons and two photons in proton-proton collisions at $ \\sqrt{s} $ = 13 TeV with the ATLAS detector
+10.1007/JHEP10(2024)104
+0
+https://inspirehep.net/api/literature/2793017
+article
+ATLAS Collaboration
+2952
+JHEP 10 (2024) 
+2024
+JHEP
+
+256) Search for new particles in events with a hadronically decaying W or Z boson and large missing transverse momentum at $ \\sqrt{s} $ = 13 TeV using the ATLAS detector
+10.1007/JHEP11(2024)126
+2
+https://inspirehep.net/api/literature/2793934
+article
+ATLAS Collaboration
+2959
+JHEP 11 (2024) 
+2024
+JHEP
+
+257) Combination of searches for Higgs boson decays into a photon and a massless dark photon using pp collisions at $ \\sqrt{\\textrm{s}} $= 13 TeV with the ATLAS detector
+10.1007/JHEP08(2024)153
+0
+https://inspirehep.net/api/literature/2794584
+article
+ATLAS Collaboration
+2966
+JHEP 08 (2024) 
+2024
+JHEP
+
+258) Combination of Searches for Higgs Boson Pair Production in <math display=\
+10.1103/PhysRevLett.133.101801
+10
+https://inspirehep.net/api/literature/2798812
+article
+ATLAS Collaboration
+2970
+Phys.Rev.Lett. 133 (2024) 
+2024
+Phys.Rev.Lett.
+
+259) Search for <math display=\
+10.1103/PhysRevD.110.092004
+1
+https://inspirehep.net/api/literature/2802475
+article
+ATLAS Collaboration
+2962
+Phys.Rev.D 110 (2024) 
+2024
+Phys.Rev.D
+
+260) Measurement of differential cross-sections in $ t\\overline{t} $ and $ t\\overline{t} $+jets production in the lepton+jets final state in pp collisions at $ \\sqrt{s} $ = 13 TeV using 140 fb$^{\u22121}$ of ATLAS data
+10.1007/JHEP08(2024)182
+0
+https://inspirehep.net/api/literature/2803142
+article
+ATLAS Collaboration
+2929
+JHEP 08 (2024) 
+2024
+JHEP
+
+261) Search for decays of the Higgs boson into a pair of pseudoscalar particles decaying into <math display=\
+10.1103/PhysRevD.110.052013
+0
+https://inspirehep.net/api/literature/2803767
+article
+ATLAS Collaboration
+2961
+Phys.Rev.D 110 (2024) 
+2024
+Phys.Rev.D
+
+262) Sensor response and radiation damage effects for 3D\u00a0pixels in the ATLAS IBL Detector
+10.1088/1748-0221/19/10/P10008
+0
+https://inspirehep.net/api/literature/2805904
+article
+ATLAS Collaboration
+2955
+JINST 19 (2024) 
+2024
+JINST
+
+263) Search for neutral long-lived particles that decay into displaced jets in the ATLAS calorimeter in association with leptons or jets using pp collisions at $ \\sqrt{\\textrm{s}} $ = 13 TeV
+10.1007/JHEP11(2024)036
+0
+https://inspirehep.net/api/literature/2807458
+article
+ATLAS Collaboration
+2973
+JHEP 11 (2024) 
+2024
+JHEP
+
+264) Combination of searches for singly and doubly charged Higgs bosons produced via vector-boson fusion in proton\u2013proton collisions at <math altimg=\
+10.1016/j.physletb.2024.139137
+1
+https://inspirehep.net/api/literature/2807795
+article
+ATLAS Collaboration
+2928
+Phys.Lett.B 860 (2025) 
+2025
+Phys.Lett.B
+
+265) Measurement of single top-quark production in association with a <math display=\
+10.1103/PhysRevD.110.072010
+1
+https://inspirehep.net/api/literature/2810155
+article
+ATLAS Collaboration
+2960
+Phys.Rev.D 110 (2024) 
+2024
+Phys.Rev.D
+
+266) Jet radius dependence of dijet momentum balance and suppression in <math><mtext>Pb</mtext><mo>+</mo><mtext>Pb</mtext></math> collisions at 5.02 TeV with the ATLAS detector
+10.1103/PhysRevC.110.054912
+1
+https://inspirehep.net/api/literature/2811406
+article
+ATLAS Collaboration
+2979
+Phys.Rev.C 110 (2024) 
+2024
+Phys.Rev.C
+
+267) Accuracy versus precision in boosted top tagging with the ATLAS detector
+10.1088/1748-0221/19/08/P08018
+0
+https://inspirehep.net/api/literature/2811690
+article
+ATLAS Collaboration
+2951
+JINST 19 (2024) 
+2024
+JINST
+
+268) Search for the nonresonant production of Higgs boson pairs via gluon fusion and vector-boson fusion in the <math display=\
+10.1103/PhysRevD.110.032012
+2
+https://inspirehep.net/api/literature/2816777
+article
+ATLAS Collaboration
+2932
+Phys.Rev.D 110 (2024) 
+2024
+Phys.Rev.D
+
+269) Search for heavy right-handed Majorana neutrinos in the decay of top quarks produced in proton-proton collisions at <math display=\
+10.1103/PhysRevD.110.112004
+2
+https://inspirehep.net/api/literature/2816994
+article
+ATLAS Collaboration
+2970
+Phys.Rev.D 110 (2024) 
+2024
+Phys.Rev.D

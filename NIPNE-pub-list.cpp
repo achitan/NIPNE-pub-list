@@ -12,6 +12,7 @@
 
 static std::string stringPage;
 static std::map<long, std::vector<std::string>> publicationMap;
+static std::map<std::string, std::string> journalsMap;
 static std::vector<std::string> publicationsOnNIPNE;
 static std::vector<std::string> articlesOnNIPNE;
 static std::map<std::string, float> SRImap;
@@ -33,6 +34,7 @@ void compareTitles();
 void compareArticles();
 void compareJournals();
 void placePublication();
+void getJournalsMap();
 
 namespace po = boost::program_options;
 
@@ -102,9 +104,9 @@ int main(int argc, char* argv[]) {
     //Ai = (A+10)/3, 5 <= A <= 80
     //Ai = A/10+22, A > 80
 
-    login(uname, pass);
-    getListOfPublications();
-    compareTitles();
+    //login(uname, pass);
+    //getListOfPublications();
+    //compareTitles();
     //compareArticles();
     //compareJournals();
     //placePublication();
@@ -227,12 +229,13 @@ void getInspirePublications(std::string author) {
                 publicationMap[ID].push_back(pub_year);
                 publicationMap[ID].push_back(j_title);
             }
-            //std::cout << ID << " : " << title << " : " << dois << " : " << href << " : " << doc_type << " : " << authors.at(0) << " : " << ref_art << " : " << pub_year << " : " << j_title << std::endl;
+            std::cout << ID << " : " << title << " : " << dois << " : " << href << " : " << doc_type << " : " << authors.at(0) << " : " << ref_art << " : " << pub_year << " : " << j_title << std::endl;
             authors.clear();
         }
         page++;
         queryLine.clear();
     }
+    std::cout << "FINISHED PROBING INSPIREHEP DB, THERE WERE " << publicationMap.size() << " ARTICLES FOUND!" << std::endl;
 }
 
 void readSRI(std::string file) {
@@ -439,4 +442,63 @@ void placePublication() {
     }
     curl_global_cleanup();
     std::cout << stringPage << "END OF PAGE" << std::endl;
+}
+
+void getJournalsMap() {
+    Json::Value root;
+    Json::Reader reader;
+    journalsMap.clear();
+    std::cout << "fetching inspire journals list..." << std::endl;
+    //cURL query
+    std::string queryLine;
+    unsigned int page = 1;
+    static int noJournals = 0;
+    CURL* curl;
+    CURLcode res;
+
+    while (true) {
+        queryLine = "https://inspirehep.net/api/journals?sort=mostrecent&size=10&page=";
+        queryLine += std::to_string(page) + "&q=";
+        curl_global_init(CURL_GLOBAL_DEFAULT);
+        curl = curl_easy_init();
+        stringPage.clear();
+        if (curl) {
+            curl_easy_setopt(curl, CURLOPT_URL, queryLine.c_str());
+            curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, getString);
+            res = curl_easy_perform(curl);
+            if (res != CURLE_OK)
+                fprintf(stderr, "curl perform for inspire site failed: %s\n",
+                    curl_easy_strerror(res));
+            curl_easy_cleanup(curl);
+        }
+        curl_global_cleanup();
+
+        //JSON stuff
+        bool parsingSuccess = reader.parse(stringPage, root);
+        if (!parsingSuccess)
+            std::cout << "ERROR parsing" << std::endl;
+        const Json::Value myArts = root["hits"]["hits"];
+        std::stringstream ss;
+        //auto myArts = json["hits"]["hits"];
+        if (myArts.size() == 0)
+            break;
+        std::string title, short_title;
+        for (auto idx : myArts) {
+            ss.str(std::string());
+            ss << idx["metadata"]["journal_title"]["title"];
+            title = ss.str();
+            replacePart(title, "\"", "");
+            std::transform(title.begin(), title.end(), title.begin(), toupper);
+            ss.str(std::string());
+            ss << idx["metadata"]["short_title"];
+            short_title = ss.str();
+            replacePart(short_title, "\"", "");
+            journalsMap[short_title] = title;
+            noJournals++;
+            std::cout << noJournals << "\r" << std::flush;
+        }
+        page++;
+        queryLine.clear();
+    }
+    std::cout << std::endl;
 }
