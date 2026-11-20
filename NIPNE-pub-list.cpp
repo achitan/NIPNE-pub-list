@@ -11,7 +11,11 @@
 #include <mutex>
 #include <atomic>
 #include <curl/curl.h>
-#include <json/json.h>
+#if __has_include(<jsoncpp/json/json.h>)
+    #include <jsoncpp/json/json.h>
+#else
+    #include <json/json.h>
+#endif
 #include <boost/program_options.hpp>
 #include <boost/algorithm/string.hpp>
 
