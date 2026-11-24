@@ -3,17 +3,17 @@ This package takes care of updating a list of publications for researchers.
 ## Installation
 
 login to lxplus
+```
+git clone https://github.com/achitan/NIPNE-pub-list.git
 
-`git clone https://github.com/achitan/NIPNE-pub-list.git`
+cd ..../NIPNE-pub-list`
 
-`cd ..../NIPNE-pub-list`
+source /cvmfs/sft.cern.ch/lcg/views/LCG_106/x86_64-el9-gcc13-opt/setup.sh
 
-`source /cvmfs/sft.cern.ch/lcg/views/LCG_106/x86_64-el9-gcc13-opt/setup.sh`
+LCG_DIR=/cvmfs/sft.cern.ch/lcg/views/LCG_106/x86_64-el9-gcc13-opt
 
-`LCG_DIR=/cvmfs/sft.cern.ch/lcg/views/LCG_106/x86_64-el9-gcc13-opt`
-
-`g++ -O3 -std=c++17 NIPNE-pub-list.cpp -o NIPNE-pub-list -L"$LCG_DIR/lib" -L"$LCG_DIR/lib64" -Wl,-rpath,"$LCG_DIR/lib:$LCG_DIR/lib64" -lcurl -ljsoncpp -lboost_program_options -pthread`
-
+g++ -O3 -std=c++17 NIPNE-pub-list.cpp -o NIPNE-pub-list -L"$LCG_DIR/lib" -L"$LCG_DIR/lib64" -Wl,-rpath,"$LCG_DIR/lib:$LCG_DIR/lib64" -lcurl -ljsoncpp -lboost_program_options -pthread
+```
 ## Usage
 
 for testing:
@@ -34,4 +34,4 @@ What it does not do:
 
     put in the correct authors number for the articles you actually worked on; go through the list and put it in yourself
 
-    - put in conferences, books and patents; it only takes care of published articles 
+    put in conferences, books and patents; it only takes care of published articles 
