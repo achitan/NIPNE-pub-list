@@ -71,6 +71,13 @@ std::string sanitizeTitleForNipne(std::string title) {
     return title;
 }
 
+bool parseJsonString(const std::string& rawJson, Json::Value& root) {
+    Json::CharReaderBuilder builder;
+    std::string errs;
+    std::istringstream iss(rawJson);
+    return Json::parseFromStream(builder, iss, &root, &errs);
+}
+
 void getInspirePublications(std::string author);
 void readSRI(std::string file);
 void login(std::string uname = "fake", std::string pass = "fake");
@@ -207,10 +214,10 @@ std::string getFullJournalName(const std::string& shortTitle) {
     }
 
     Json::Value root;
-    Json::Reader reader;
+    //Json::Reader reader;
     std::string fullTitle = shortTitle;
 
-    if (reader.parse(responseBuffer, root)) {
+    if (parseJsonString(responseBuffer, root)) {
         const Json::Value& hits = root["hits"]["hits"];
         if (hits.isArray() && !hits.empty()) {
             const Json::Value& meta = hits[0]["metadata"];
@@ -257,7 +264,7 @@ void getInspirePublications(std::string author) {
         }
 
         Json::Value root;
-        if (!reader.parse(responseBuffer, root) || !root.isMember("hits") || !root["hits"].isMember("hits")) {
+        if (!parseJsonString(responseBuffer, root) || !root.isMember("hits") || !root["hits"].isMember("hits")) {
             std::cout << "Finished or error parsing INSPIRE JSON on page " << page << "." << std::endl;
             break;
         }

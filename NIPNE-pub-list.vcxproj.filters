@@ -29,8 +29,10 @@
     <Text Include="regularJournals.txt">
       <Filter>Resource Files</Filter>
     </Text>
-    <Text Include="README.txt">
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md">
       <Filter>Resource Files</Filter>
-    </Text>
+    </None>
   </ItemGroup>
 </Project>

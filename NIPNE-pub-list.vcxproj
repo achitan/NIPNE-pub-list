@@ -149,9 +149,11 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="outputXML.html" />
-    <Text Include="README.txt" />
     <Text Include="regularJournals.txt" />
     <Text Include="RIS_2021.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
