@@ -14,3 +14,6 @@ g++ -O3 -std=c++17 NIPNE-pub-list.cpp -o NIPNE-pub-list -L"$LCG_DIR/lib" -L"$LCG
 
 ./NIPNE-pub-list -a "<your_name_on_inspirehep>" -u "<your_uname_on_nipne>" -p "<your_pass_on_nipne>"
 
+<your_name_on_inspirehep>: use the complete name like "chitan, adrian"
+<your_uname_on_nipne>: this is your nipnedb login username
+<your_pass_on_nipne>: this is your nipnedb login password
