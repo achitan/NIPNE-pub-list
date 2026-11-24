@@ -2,7 +2,7 @@ This package takes care of updating a list of publications for researchers.
 
 login to lxplus
 
-git clone https://github.com/achitan/NIPNE-pub-list.git
+`git clone https://github.com/achitan/NIPNE-pub-list.git`
 
 cd ..../NIPNE-pub-list
 
