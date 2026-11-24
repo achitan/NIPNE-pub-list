@@ -214,7 +214,6 @@ std::string getFullJournalName(const std::string& shortTitle) {
     }
 
     Json::Value root;
-    //Json::Reader reader;
     std::string fullTitle = shortTitle;
 
     if (parseJsonString(responseBuffer, root)) {
@@ -236,7 +235,6 @@ void getInspirePublications(std::string author) {
     unsigned int page = 1;
     int noArticles = 0;
     int duplicateArts = 0;
-    Json::Reader reader;
 
     std::cout << "Probing INSPIRE-HEP DB for author: " << author << "..." << std::endl;
 
